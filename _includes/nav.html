@@ -52,16 +52,15 @@
           >{{ link[0] }}</a
         >
       </li>
-      {%- endif -%} {%- endfor -%}
+      {%- endif -%}
       <!-- LOGIN WITH DENEO CUSTOM BUTTON -->
-      <li class="custom-nav-item">
-        <a
-          class="custom-nav-link"
-          href="https://deneo.app/account"
-          target="_blank"
+      {% - if link[0] == "Je me connecte" -%}
+      <li class="nav-item">
+        <a class="nav-link" href="https://deneo.app/account" target="_blank"
           >Je me connecte</a
         >
       </li>
+      {%- endfor -%}
     </ul>
   </div>
 
