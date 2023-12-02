@@ -1,8 +1,7 @@
 ---
 layout: home
 title: Découvrez Training APA
-subtitle: TODO: subtitle
-cover-img: "/assets/img/path.jpg"
+subtitle: This is where I will tell my friends way too much about me
 ---
 
 ## TODO: accueil
