@@ -193,7 +193,7 @@ img {
 }
 
 /* CUSTOM CSS FOR LOGIN BUTTON */
-.nav-item-custom {
+.custom-nav-item {
   text-transform: uppercase;
   font-size: 0.8125rem;
   letter-spacing: 0.0625rem;
@@ -201,7 +201,7 @@ img {
   border-radius: 20;
 }
 
-.nav-link-custom {
+.custom-nav-link {
   line-height: 1.25rem;
   padding-top: 0.9375rem;
   padding-bottom: 0.9375rem;
