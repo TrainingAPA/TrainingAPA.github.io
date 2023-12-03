@@ -6,6 +6,7 @@ cover-img: "./assets/img/path.jpg"
 ---
 
 ###  Hoc enim constituto in philosophia constituta sunt omnia. Nunc vides, quid faciat. Contineo me ab exemplis. Quae est igitur causa istarum angustiarum? Cui Tubuli nomen odio non est? Refert tamen, quo modo.
+<br/>
 
 ---
 # Le Concept: 
