@@ -33,7 +33,7 @@
             {% endif %}
           {% endif %}
           <!-- Display button only in "Accueil" page -->
-          {% if page.title != "Accueil" %}
+          {% if page.layout == "home" %}
             <div
               style="
                 display: flex;
