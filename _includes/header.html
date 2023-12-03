@@ -32,39 +32,42 @@
               <h2 class="{{ include.type }}-subheading">{{ page.subtitle | strip_html }}</h2>
             {% endif %}
           {% endif %}
-          <div
-            style="
-              justify-content: center;
-              align-items: center;
-              margin-top: 10%;
-            "  
-          >
+          <!-- Display button only in "Accueil" page -->
+          {% if page.title == "Accueil" %}
             <div
               style="
-                display: flex;
-                border: 2px solid #eaeaea;
-                border-radius: 0.5em;
-                width: 15em;
-              "
+                justify-content: center;
+                align-items: center;
+                margin-top: 10%;
+              "  
             >
-              <a
-                class="nav-link"
+              <div
                 style="
-                color: #eaeaea !important;
-                font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
-                sans-serif;
-                text-transform: uppercase;
-                font-size: 0.8125rem;
-                letter-spacing: 0.0625rem;
-                font-weight: 800;
+                  display: flex;
+                  border: 2px solid #eaeaea;
+                  border-radius: 0.5em;
+                  width: 15em;
                 "
-                href="https://deneo.app/account"
-                target="_blank"
               >
-                Je me connecte
-              </a>
+                <a
+                  class="nav-link"
+                  style="
+                  color: #eaeaea !important;
+                  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
+                  sans-serif;
+                  text-transform: uppercase;
+                  font-size: 0.8125rem;
+                  letter-spacing: 0.0625rem;
+                  font-weight: 800;
+                  "
+                  href="https://deneo.app/account"
+                  target="_blank"
+                >
+                  Je me connecte
+                </a>
+              </div>
             </div>
-          </div>
+          {% endif %}
         </div>
       </div>
     </div>
