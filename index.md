@@ -20,7 +20,7 @@ Hoc enim constituto in philosophia constituta sunt omnia. Nunc vides, quid facia
 # Qui suis-je ?
 <!-- <img style="float: right;" src="./assets/img/avatar-icon.png">
  -->
-<img align="left" height="300" src="./assets/img/avatar-icon.png" style="margin-right: 10%" />
+<img align="left" height="400" src="./assets/img/avatar-icon.png" style="margin-right: 10%" />
 
 ## Alban BRIERE
 **Ingénieur en activité physique adaptée**
