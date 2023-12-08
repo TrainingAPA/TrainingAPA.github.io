@@ -1,6 +1,5 @@
 <footer>
   <div class="container-md beautiful-jekyll-footer">
-    <!-- TODO: Column layout avec infos/carte sur le coté -->
     <div class="row">
       <div class="column">
         <h2>Me contacter</h2>
@@ -16,13 +15,22 @@
           enctype="text/plain"
         >
           <label for="name">Nom:</label><br />
-          <input type="text" id="name" name="name" /><br />
+          <input type="text" style="width: 100%" id="name" name="name" /><br />
           <label for="email">Adresse mail:</label><br />
-          <input type="email" id="email" name="email" /><br />
+          <input
+            type="email"
+            style="width: 100%"
+            id="email"
+            name="email"
+          /><br />
           <label for="message">Message:</label><br />
-          <textarea id="message" name="message" style="height: 10em"></textarea
+          <textarea
+            id="message"
+            name="message"
+            style="height: 10em; width: 100%"
+          ></textarea
           ><br />
-          <input type="submit" value="Envoyer" />
+          <input type="submit" style="width: 100%" value="Envoyer" />
         </form>
       </div>
       <div class="column">

@@ -13,7 +13,6 @@ form label {
 form input[type="text"],
 form input[type="email"],
 form textarea {
-  width: 100% !important;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 1em;
@@ -22,7 +21,6 @@ form textarea {
 
 form input[type="submit"] {
   background-color: #4dbab4;
-  width: 100% !important;
   color: #ddd;
   padding: 10px 20px;
   border: none;
