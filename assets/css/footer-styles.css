@@ -2,7 +2,6 @@ form {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   line-height: 1.1;
-  padding: 20px;
   margin: 20px 0;
 }
 
@@ -14,7 +13,7 @@ form label {
 form input[type="text"],
 form input[type="email"],
 form textarea {
-  width: 50%;
+  width: 100%;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 1em;
@@ -24,7 +23,7 @@ form textarea {
 form input[type="submit"] {
   background-color: #4DBAB4;
   width: 100%;
-  color: #fff;
+  color: #005F73;
   padding: 10px 20px;
   border: none;
   border-radius: 1em;
