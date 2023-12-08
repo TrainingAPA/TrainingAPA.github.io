@@ -17,7 +17,9 @@
 {% endif %}
 
 <header class="header-section {% if page.cover-img %}has-img{% endif %}">
-<div class="intro-header {% if page.cover-img %} big-img {% endif %}">
+<div class="intro-header {% if page.cover-img %} big-img {% endif %}"
+    style="background-image: url('{% if page.cover-img %}{{ page.cover-img.first | absolute_url }}{% endif %}');"
+>
   {% if page.cover-img or page.title %}
   <div class="container-md">
     <div class="row">
