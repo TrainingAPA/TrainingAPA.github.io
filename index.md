@@ -5,13 +5,14 @@ subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maximas vero 
 cover-img: "./assets/img/path.jpg"
 ---
 
-### Training APA vous accompagne dans vos objectifs bien être et santé.  
+# Training APA vous accompagne dans vos objectifs bien être et santé.  
 
-Il est parfois difficile de trouver le temps de prendre soin de notre santé physique. C'est là que notre expertise entre en jeu. En tant qu’expert de l’activité physique adaptée (APA), TRAINING APA conçois des programmes sur mesure qui s'adaptent à votre niveau de condition physique, à vos préférences et à vos besoins spécifiques.  
+Il est parfois difficile de trouver le temps de prendre soin de notre santé physique. C'est là que notre expertise entre en jeu.  
+En tant qu’expert de l’activité physique adaptée (APA), **TRAINING APA** conçois des programmes sur mesure qui s'adaptent à votre niveau de condition physique, à vos préférences et à vos besoins spécifiques.  
 
-Training APA s'engage à vous aider à atteindre vos objectifs de bien-être de la manière la plus adaptée à vos besoins individuels.  
+**TRAINING APA** s'engage à vous aider à atteindre vos objectifs de bien-être de la manière la plus adaptée à vos besoins individuels.  
 <br/>
-Que vous soyez un débutant n’ayant jamais touché aux sports et à l’activité physique, que vous ayez des conditions médicales particulières, ou que vous recherchiez simplement une approche plus personnalisée pour atteindre vos objectifs, TRAINING APA est la pour vous guider à chaque étape.  
+Que vous soyez un débutant n’ayant jamais touché aux sports et à l’activité physique, que vous ayez des conditions médicales particulières, ou que vous recherchiez simplement une approche plus personnalisée pour atteindre vos objectifs, **TRAINING APA** est la pour vous guider à chaque étape.  
 <br/>
 Notre approche repose sur la bienveillance, l'adaptabilité et la motivation constante. 
 
