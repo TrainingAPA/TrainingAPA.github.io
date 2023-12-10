@@ -52,10 +52,9 @@ form input[type="submit"] {
 
 /* Google map */
 .google-map {
-  padding-bottom: 50%;
+  padding-bottom: 81%;
   position: relative;
   border: 2px solid #777;
-  border-radius: 1em;
 }
 
 .google-map iframe {
