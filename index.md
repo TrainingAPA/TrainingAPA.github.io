@@ -28,6 +28,9 @@ Elle permets également un remboursement par les mutuelles selon votre condition
 
 [Plus d'infos](https://trainingapa.github.io/remboursement/)
   
+---
+# Le fonctionnement:
+<img src="./assets/img/fonctionnement.png" />  
 
 ---
 # Qui suis-je ?
