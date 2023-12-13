@@ -20,7 +20,7 @@ Possibilité de faire des séances de 30 minutes à 1 heure, également faisable
     <th style="width: 50%">Offre 2</th>
   </tr>
   <tr>
-    <td>Cette offre vous correspond si vous avez des horaires de travail complexe et que vous ne trouvez rien d’adaptée à votre emploi du temps.</td>
+    <td>Cette offre vous correspond si vous avez des horaires de travail complexe et que vous ne trouvez rien d’adapté à votre emploi du temps.</td>
     <td>Cette offre vous correspond si vous recherchez un coaching le plus adaptée et optimal possible à votre condition et pour l’atteinte de vos objectifs, que ce soit la perte de poids, en finir avec vos douleurs, vous remettre en forme, ou pratiquer une activité physique régulière !</td>
   </tr>
 </table>
