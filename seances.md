@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Nos séances individuelles
-subtitle: TODO subtitle
+subtitle: TODO subtitle ?
 ---
 
 
