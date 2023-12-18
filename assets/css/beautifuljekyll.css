@@ -1086,3 +1086,17 @@ pre {
     display: inline-block;
   }
 }
+
+/* Navbar image */
+.nav-custom-img {
+  width: auto;
+}
+
+@media (min-width: 992px) {
+  .nav-custom-img {
+    height: 4rem ;
+    width: auto;
+  }
+}
+
+
