@@ -6,8 +6,20 @@
     ><img
       alt="{{ site.title }} Logo"
       src="{{ site.title-img | relative_url}}"
-      class="navbar-custom-img"
+      class="nav-custom-img"
   /></a>
+  <style>
+    .nav-custom-img {
+      width: auto;
+    }
+
+    @media (min-width: 992px) {
+      .nav-custom-img {
+        height: 4.5rem;
+        width: auto;
+      }
+    }
+  </style>
   {%- elsif site.title -%}
   <a class="navbar-brand" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
   {%- endif -%}
