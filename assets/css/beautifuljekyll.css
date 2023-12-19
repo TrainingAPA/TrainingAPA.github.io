@@ -147,6 +147,7 @@ img {
 .navbar-custom.top-nav-short-permanent {
   padding-top: 0;
   padding-bottom: 0;
+  height: 5rem;
 }
 
 .navbar-custom .navbar-brand {
@@ -220,6 +221,7 @@ img {
   .navbar-custom {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
+    height: 8rem;
   }
 
   .navbar-custom .navbar-brand-logo {
