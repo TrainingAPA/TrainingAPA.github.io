@@ -1,6 +1,6 @@
 /* TABLE */
 .planning-table {
-  width: 100%;
+  width: -webkit-fill-available
   border-collapse: separate;
   border-spacing: 25px 0;
 
