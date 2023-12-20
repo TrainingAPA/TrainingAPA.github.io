@@ -36,15 +36,13 @@
   /* CELLS */
   div {
     color: #ffffff;
-    background-color: crimson;
     text-align: center;
     justify-content: center;
     align-items: center;
     display: flex;
     margin: auto;
-    padding: 5px;
     width: 60%;
-    height: 60%;
+    height: 80%;
     flex-direction: column;
   }
 }
