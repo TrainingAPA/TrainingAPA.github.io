@@ -1,9 +1,8 @@
 /* TABLE */
 .planning-table {
-  width: webkit-fill-available;
+  width: 100%;
   border-collapse: separate;
   border-spacing: 25px 0;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   tr:last-child td:not(:first-child) {
     border-bottom: 3px solid #4dbab4;
