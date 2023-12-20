@@ -7,4 +7,4 @@ subtitle: TODO subtitle
 ## TODO: planning
 
 <!-- Include html -->
-{% include planning.html %}
+{% include_relative planning.html %}
