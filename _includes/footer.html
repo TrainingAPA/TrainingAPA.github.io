@@ -11,23 +11,25 @@
         <!-- CONTACT FORM -->
         <form
           action="mailto:contact@training-apa.fr"
-          method="get"
+          method="post"
           enctype="text/plain"
         >
           <label for="name">Nom:</label><br />
-          <input type="text" style="width: 100%" id="name" name="name" /><br />
+          <input type="text" style="width: 100%" id="name" name="name" required/><br />
           <label for="email">Adresse mail:</label><br />
           <input
             type="email"
             style="width: 100%"
             id="email"
             name="email"
+            required
           /><br />
           <label for="message">Message:</label><br />
           <textarea
             id="message"
             name="message"
             style="height: 10em; width: 100%"
+            required
           ></textarea
           ><br />
           <input
