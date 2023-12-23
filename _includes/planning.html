@@ -1,15 +1,18 @@
 <script>
+  // Open the modal
   function openModal(divId) {
     document.getElementById("myModal").style.display = "block";
     document.getElementById("modalText").innerText = divId;
   }
 
+  // Close the modal
   window.onclick = function (event) {
     if (event.target == document.getElementById("myModal")) {
       document.getElementById("myModal").style.display = "none";
     }
   };
 
+  // Close the modal with the X
   document.getElementsByClassName("close")[0].onclick = function () {
     document.getElementById("myModal").style.display = "none";
   };
@@ -28,23 +31,44 @@
     <tr>
       <td>8h-9h</td>
       <td>
-        <div style="background-color: #005f73">Salle de sport</div>
+        <div
+          onclick="openModal('Salle de sport')"
+          style="background-color: #005f73"
+        >
+          Salle de sport
+        </div>
       </td>
       <td>
-        <div style="background-color: #005f73">Salle de sport</div>
+        <div
+          onclick="openModal('Salle de sport')"
+          style="background-color: #005f73"
+        >
+          Salle de sport
+        </div>
       </td>
       <td>
-        <div style="background-color: #005f73">Salle de sport</div>
+        <div
+          onclick="openModal('Salle de sport')"
+          style="background-color: #005f73"
+        >
+          Salle de sport
+        </div>
       </td>
       <td>
-        <div style="background-color: #37b6ff">
+        <div
+          onclick="openModal('APA Perte de poids')"
+          style="background-color: #37b6ff"
+        >
           APA
           <br />
           <u>Perte de poids</u>
         </div>
       </td>
       <td>
-        <div style="background-color: #7295ff">
+        <div
+          onclick="openModal('APA du Dos')"
+          style="background-color: #7295ff"
+        >
           APA
           <br />
           <u>Du dos</u>
@@ -54,7 +78,7 @@
     <tr>
       <td>16h30-17h30</td>
       <td>
-        <div style="background-color: red">
+        <div onclick="openModal('APA Cognitif')" style="background-color: red">
           APA
           <br />
           <u>Cognitif</u>
@@ -62,21 +86,27 @@
       </td>
       <td></td>
       <td>
-        <div style="background-color: #fa01ac">
+        <div
+          onclick="openModal('APA en fauteuil')"
+          style="background-color: #fa01ac"
+        >
           APA en
           <br />
           fauteuil
         </div>
       </td>
       <td>
-        <div style="background-color: red">
+        <div onclick="openModal('APA Cognitif')" style="background-color: red">
           APA
           <br />
           <u>Cognitif</u>
         </div>
       </td>
       <td>
-        <div style="background-color: #37b6ff">
+        <div
+          onclick="openModal('APA Perte de poids')"
+          style="background-color: #37b6ff"
+        >
           APA
           <br />
           <u>Perte de poids</u>
@@ -86,21 +116,37 @@
     <tr>
       <td>17h45-18h45</td>
       <td>
-        <div style="background-color: seagreen">Multi-activités</div>
+        <div
+          onclick="openModal('Multi-activités')"
+          style="background-color: seagreen"
+        >
+          Multi-activités
+        </div>
       </td>
       <td></td>
       <td>
-        <div style="background-color: #37b6ff">
+        <div
+          onclick="openModal('APA Perte de poids')"
+          style="background-color: #37b6ff"
+        >
           APA
           <br />
           <u>Perte de poids</u>
         </div>
       </td>
       <td>
-        <div style="background-color: coral">Renforcement<br />musculaire</div>
+        <div
+          onclick="openModal('Renforcement musculaire')"
+          style="background-color: coral"
+        >
+          Renforcement<br />musculaire
+        </div>
       </td>
       <td>
-        <div style="background-color: #ff9103">
+        <div
+          onclick="openModal('APA Pilates')"
+          style="background-color: #ff9103"
+        >
           APA
           <br />
           Pilates
@@ -110,7 +156,10 @@
     <tr>
       <td>19h-20h</td>
       <td>
-        <div style="background-color: #7295ff">
+        <div
+          onclick="openModal('APA Du dos')"
+          style="background-color: #7295ff"
+        >
           APA
           <br />
           <u>Du dos</u>
@@ -118,27 +167,36 @@
       </td>
       <td></td>
       <td>
-        <div style="background-color: #7295ff">
+        <div
+          onclick="openModal('APA Du dos')"
+          style="background-color: #7295ff"
+        >
           APA
           <br />
           <u>Du dos</u>
         </div>
       </td>
       <td>
-        <div style="background-color: #37b6ff">
+        <div
+          onclick="openModal('APA Perte de poids')"
+          style="background-color: #37b6ff"
+        >
           APA
           <br />
           <u>Perte de poids</u>
         </div>
       </td>
       <td>
-        <div style="background-color: seagreen">Multi-activités</div>
+        <div
+          onclick="openModal('Multi-activités')"
+          style="background-color: seagreen"
+        >
+          Multi-activités
+        </div>
       </td>
     </tr>
   </table>
   <!-- MODAL -->
-  <div id="myDiv" onclick="openModal('myDiv')">Click me</div>
-
   <div id="myModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
