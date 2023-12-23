@@ -1,120 +1,148 @@
-<table class="planning-table">
-  <tr>
-    <th></th>
-    <th>Lundi</th>
-    <th>Mardi</th>
-    <th>Mercredi</th>
-    <th>Jeudi</th>
-    <th>Vendredi</th>
-  </tr>
-  <tr>
-    <td>8h-9h</td>
-    <td>
-      <div style="background-color: #005f73">Salle de sport</div>
-    </td>
-    <td>
-      <div style="background-color: #005f73">Salle de sport</div>
-    </td>
-    <td>
-      <div style="background-color: #005f73">Salle de sport</div>
-    </td>
-    <td>
-      <div style="background-color: #37b6ff">
-        APA
-        <br />
-        <u>Perte de poids</u>
-      </div>
-    </td>
-    <td>
-      <div style="background-color: #7295ff">
-        APA
-        <br />
-        <u>Du dos</u>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td>16h30-17h30</td>
-    <td>
-      <div style="background-color: red">
-        APA
-        <br />
-        <u>Cognitif</u>
-      </div>
-    </td>
-    <td></td>
-    <td>
-      <div style="background-color: #fa01ac">
-        APA en
-        <br />
-        fauteuil
-      </div>
-    </td>
-    <td>
-      <div style="background-color: red">
-        APA
-        <br />
-        <u>Cognitif</u>
-      </div>
-    </td>
-    <td>
-      <div style="background-color: #37b6ff">
-        APA
-        <br />
-        <u>Perte de poids</u>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td>17h45-18h45</td>
-    <td>
-      <div style="background-color: seagreen">Multi-activités</div>
-    </td>
-    <td></td>
-    <td>
-      <div style="background-color: #37b6ff">
-        APA
-        <br />
-        <u>Perte de poids</u>
-      </div>
-    </td>
-    <td>
-      <div style="background-color: coral">Renforcement<br />musculaire</div>
-    </td>
-    <td>
-      <div style="background-color: #ff9103">
-        APA
-        <br />
-        Pilates
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td>19h-20h</td>
-    <td>
-      <div style="background-color: #7295ff">
-        APA
-        <br />
-        <u>Du dos</u>
-      </div>
-    </td>
-    <td></td>
-    <td>
-      <div style="background-color: #7295ff">
-        APA
-        <br />
-        <u>Du dos</u>
-      </div>
-    </td>
-    <td>
-      <div style="background-color: #37b6ff">
-        APA
-        <br />
-        <u>Perte de poids</u>
-      </div>
-    </td>
-    <td>
-      <div style="background-color: seagreen">Multi-activités</div>
-    </td>
-  </tr>
-</table>
+<script>
+  function openModal(divId) {
+    document.getElementById("myModal").style.display = "block";
+    document.getElementById("modalText").innerText = divId;
+  }
+
+  window.onclick = function (event) {
+    if (event.target == document.getElementById("myModal")) {
+      document.getElementById("myModal").style.display = "none";
+    }
+  };
+
+  document.getElementsByClassName("close")[0].onclick = function () {
+    document.getElementById("myModal").style.display = "none";
+  };
+</script>
+<div>
+  <!-- TABLE -->
+  <table class="planning-table">
+    <tr>
+      <th></th>
+      <th>Lundi</th>
+      <th>Mardi</th>
+      <th>Mercredi</th>
+      <th>Jeudi</th>
+      <th>Vendredi</th>
+    </tr>
+    <tr>
+      <td>8h-9h</td>
+      <td>
+        <div style="background-color: #005f73">Salle de sport</div>
+      </td>
+      <td>
+        <div style="background-color: #005f73">Salle de sport</div>
+      </td>
+      <td>
+        <div style="background-color: #005f73">Salle de sport</div>
+      </td>
+      <td>
+        <div style="background-color: #37b6ff">
+          APA
+          <br />
+          <u>Perte de poids</u>
+        </div>
+      </td>
+      <td>
+        <div style="background-color: #7295ff">
+          APA
+          <br />
+          <u>Du dos</u>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>16h30-17h30</td>
+      <td>
+        <div style="background-color: red">
+          APA
+          <br />
+          <u>Cognitif</u>
+        </div>
+      </td>
+      <td></td>
+      <td>
+        <div style="background-color: #fa01ac">
+          APA en
+          <br />
+          fauteuil
+        </div>
+      </td>
+      <td>
+        <div style="background-color: red">
+          APA
+          <br />
+          <u>Cognitif</u>
+        </div>
+      </td>
+      <td>
+        <div style="background-color: #37b6ff">
+          APA
+          <br />
+          <u>Perte de poids</u>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>17h45-18h45</td>
+      <td>
+        <div style="background-color: seagreen">Multi-activités</div>
+      </td>
+      <td></td>
+      <td>
+        <div style="background-color: #37b6ff">
+          APA
+          <br />
+          <u>Perte de poids</u>
+        </div>
+      </td>
+      <td>
+        <div style="background-color: coral">Renforcement<br />musculaire</div>
+      </td>
+      <td>
+        <div style="background-color: #ff9103">
+          APA
+          <br />
+          Pilates
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>19h-20h</td>
+      <td>
+        <div style="background-color: #7295ff">
+          APA
+          <br />
+          <u>Du dos</u>
+        </div>
+      </td>
+      <td></td>
+      <td>
+        <div style="background-color: #7295ff">
+          APA
+          <br />
+          <u>Du dos</u>
+        </div>
+      </td>
+      <td>
+        <div style="background-color: #37b6ff">
+          APA
+          <br />
+          <u>Perte de poids</u>
+        </div>
+      </td>
+      <td>
+        <div style="background-color: seagreen">Multi-activités</div>
+      </td>
+    </tr>
+  </table>
+  <!-- MODAL -->
+  <div id="myDiv" onclick="openModal('myDiv')">Click me</div>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="modalText"></p>
+    </div>
+  </div>
+</div>
