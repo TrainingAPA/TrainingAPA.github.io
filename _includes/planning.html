@@ -5,16 +5,18 @@
     document.getElementById("modalText").innerText = divId;
   }
 
-  // Close the modal
+  // Close the modal when clicking outside of it
   window.onclick = function (event) {
     if (event.target == document.getElementById("myModal")) {
       document.getElementById("myModal").style.display = "none";
     }
   };
 
-  // Close the modal with the X
-  document.getElementsByClassName("close")[0].onclick = function () {
-    document.getElementById("myModal").style.display = "none";
+  // Close the modal with the X button
+  window.onclick = function (event) {
+    if (event.target == document.getElementsByClassName("close")[0]) {
+      document.getElementById("myModal").style.display = "none";
+    }
   };
 </script>
 <div>
