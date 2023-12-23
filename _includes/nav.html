@@ -6,7 +6,7 @@
     ><img
       alt="{{ site.title }} Logo"
       src="{{ site.title-img | relative_url}}"
-      style="margin-left: 5%;"
+      style="margin-left: 5%"
   /></a>
   {%- elsif site.title -%}
   <a class="navbar-brand" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
@@ -25,7 +25,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="main-navbar">
-    <ul class="navbar-nav ml-auto" style="background-color: white;">
+    <ul class="navbar-nav ml-auto" style="background-color: white">
       {%- for link in site.navbar-links -%} {%- if link[1].first %}
       <li class="nav-item dropdown">
         <a
@@ -60,7 +60,12 @@
       {%- if link[0] == "Je me connecte" -%}
       <li
         class="nav-item"
-        style="border: 2px solid #4dbab4; border-radius: 1em"
+        style="
+          border: 2px solid #4dbab4;
+          border-radius: 1em;
+          margin-left: 1em;
+          margin-right: 1em;
+        "
       >
         <a
           class="nav-link"
