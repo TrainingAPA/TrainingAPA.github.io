@@ -4,6 +4,7 @@
   border-collapse: separate;
   border-spacing: 25px 0;
   table-layout: fixed;
+  width: 100%;
 
   tr:last-child td:not(:first-child) {
     border-bottom: 3px solid #4dbab4;
