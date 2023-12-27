@@ -3,6 +3,7 @@
   function openModal(divId) {
     document.getElementById("myModal").style.display = "block";
     document.getElementById("modalText").innerText = divId;
+    fillModalContent(divId);
   }
 
   // Close the modal when clicking outside of it
@@ -278,7 +279,9 @@
             <h3>Description</h3>
             <p id="modalDescription">Some text...</p>
             <button class="modal-register-button">
-              <a href="https://www.google.com">Inscription</a>
+              <a href="https://www.google.com" style="color: white"
+                >Inscription</a
+              >
             </button>
           </div>
           <!-- RIGHT COLUMN -->
