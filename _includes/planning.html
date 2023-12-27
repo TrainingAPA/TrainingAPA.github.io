@@ -17,16 +17,10 @@
   function fillModalContent(divId) {
     switch (divId) {
       case "Salle de sport":
-        document.getElementById(
-          "modalDescription"
-        ).innerText = `Accompagnement de 3 à 6 mois pour les personnes qui souhaitent commencer la salle de sport mais ne savent pas comment s'y prendre${(
-          <br />
-        )}.Programme personnalisé et adapté sur devis`;
-        document.getElementById(
-          "modalTarifs"
-        ).innerText = `Bilan et premier entretien gratuit${(<br />)}
-        Séance : 35 à 55 euros/séance${(<br />)}
-        Programme personnalisé : 110 à 300 euros (3 à 6 mois).`;
+        document.getElementById("modalDescription").innerText =
+          "Accompagnement de 3 à 6 mois pour les personnes qui souhaitent commencer la salle de sport mais ne savent pas comment s'y prendre\n.Programme personnalisé et adapté sur devis";
+        document.getElementById("modalTarifs").innerText =
+          "Bilan et premier entretien gratuit\nSéance : 35 à 55 euros/séance\n Programme personnalisé : 110 à 300 euros (3 à 6 mois).";
         document.getElementById("modalObjectifs").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
         break;
