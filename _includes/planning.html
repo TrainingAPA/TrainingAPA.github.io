@@ -16,7 +16,7 @@
   <!-- TABLE -->
   <table class="planning-table">
     <tr>
-      <th style="width: 110px !important;"></th>
+      <th style="width: 110px !important"></th>
       <th>Lundi</th>
       <th>Mardi</th>
       <th>Mercredi</th>
@@ -199,13 +199,24 @@
       <h2 id="modalText"></h2>
       <!-- CONTENT -->
       <div class="modal-body">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          voluptatum, quibusdam, voluptate, quia quod quos voluptas
-          exercitationem quas voluptatibus quidem doloribus. Quisquam
-          voluptatum, quibusdam, voluptate, quia quod quos voluptas
-          exercitationem quas voluptatibus quidem doloribus.
-        </p>
+        <!-- NEW 2-COLUMN LAYOUT -->
+        <div style="display: flex; justify-content: space-between">
+          <!-- LEFT COLUMN -->
+          <div>
+            <h3>Description</h3>
+            <p>Some text...</p>
+            <button>
+              <a href="https://www.google.com">Inscription</a>
+            </button>
+          </div>
+          <!-- RIGHT COLUMN -->
+          <div>
+            <h3>Tarifs</h3>
+            <p>Some text...</p>
+            <h3>Objectifs</h3>
+            <p>Some text...</p>
+          </div>
+        </div>
       </div>
       <!-- IMAGE AT BOTTOM OF MODAL -->
       <div style="text-align: center">
