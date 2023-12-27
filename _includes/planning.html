@@ -11,6 +11,78 @@
       document.getElementById("myModal").style.display = "none";
     }
   };
+
+  // Fill modal content with relevant data based on the session clicked
+  function fillModalContent(divId) {
+    switch (divId) {
+      case "Salle de sport":
+        document.getElementById("modalDescription").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
+        document.getElementById("modalTarifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
+      case "APA Perte de poids":
+        document.getElementById("modalDescription").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
+        document.getElementById("modalTarifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
+      case "APA du Dos":
+        document.getElementById("modalDescription").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
+        document.getElementById("modalTarifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
+      case "APA Cognitif":
+        document.getElementById("modalDescription").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
+        document.getElementById("modalTarifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
+      case "APA en fauteuil":
+        document.getElementById("modalDescription").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
+        document.getElementById("modalTarifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
+      case "Multi-activités":
+        document.getElementById("modalDescription").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
+        document.getElementById("modalTarifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
+      case "Renforcement musculaire":
+        document.getElementById("modalDescription").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
+        document.getElementById("modalTarifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
+      case "APA Pilates":
+        document.getElementById("modalDescription").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
+        document.getElementById("modalTarifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
+      default:
+        break;
+    }
+  }
 </script>
 <div>
   <!-- TABLE -->
@@ -200,27 +272,27 @@
       <!-- CONTENT -->
       <div class="modal-body">
         <!-- NEW 2-COLUMN LAYOUT -->
-        <div style="display: flex; justify-content: space-between">
+        <div style="display: flex; justify-content: space-evenly">
           <!-- LEFT COLUMN -->
           <div>
             <h3>Description</h3>
-            <p>Some text...</p>
-            <button>
+            <p id="modalDescription">Some text...</p>
+            <button class="modal-register-button">
               <a href="https://www.google.com">Inscription</a>
             </button>
           </div>
           <!-- RIGHT COLUMN -->
           <div>
             <h3>Tarifs</h3>
-            <p>Some text...</p>
+            <p id="modalTarifs">Some text...</p>
             <h3>Objectifs</h3>
-            <p>Some text...</p>
+            <p if="modalObjectifs">Some text...</p>
           </div>
         </div>
       </div>
       <!-- IMAGE AT BOTTOM OF MODAL -->
       <div style="text-align: center">
-        <img src="../assets/img/bandeau_site.png" style="width: 50%" />
+        <img src="../assets/img/bandeau_site.png" style="width: 40%" />
       </div>
     </div>
   </div>

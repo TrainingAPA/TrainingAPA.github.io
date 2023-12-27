@@ -71,6 +71,16 @@
   width: 60%;
 }
 
+.modal-register-button {
+  background-color: #4dbab4;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 1em;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
 .close {
   color: #aaa;
   float: right;
