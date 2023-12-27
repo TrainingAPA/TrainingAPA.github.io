@@ -1,97 +1,97 @@
 <script>
-    // Open the modal
-    function openModal(divId) {
-      document.getElementById("myModal").style.display = "block";
-      document.getElementById("modalText").innerText = divId;
-      fillModalContent(divId);
+  // Open the modal
+  function openModal(divId) {
+    document.getElementById("myModal").style.display = "block";
+    document.getElementById("modalText").innerText = divId;
+    fillModalContent(divId);
+  }
+
+  // Close the modal when clicking outside of it
+  window.onclick = function (event) {
+    if (event.target == document.getElementById("myModal")) {
+      document.getElementById("myModal").style.display = "none";
     }
+  };
 
-    // Close the modal when clicking outside of it
-    window.onclick = function (event) {
-      if (event.target == document.getElementById("myModal")) {
-        document.getElementById("myModal").style.display = "none";
-      }
-    };
+  // Fill modal content with relevant data based on the session clicked
+  function fillModalContent(divId) {
+    switch (divId) {
+      case "Salle de sport":
+        document.getElementById("modalDescription").innerText =
+          "Accompagnement de 3 à 6 mois pour les personnes qui souhaitent commencer la salle de sport mais ne savent pas comment s'y prendre.\nProgramme personnalisé et adapté sur devis";
+        document.getElementById("modalTarifs").innerText =
+          "Bilan et premier entretien gratuit.\n\nSéance : 35 à 55 euros/séance.\n\nProgramme personnalisé : 110 à 300 euros (3 à 6 mois).";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
 
-    // Fill modal content with relevant data based on the session clicked
-    function fillModalContent(divId) {
-      switch (divId) {
-        case "Salle de sport":
-          document.getElementById("modalDescription").innerText =
-            "Accompagnement de 3 à 6 mois pour les personnes qui souhaitent commencer la salle de sport mais ne savent pas comment s'y prendre.\nProgramme personnalisé et adapté sur devis";
-          document.getElementById("modalTarifs").innerText =
-            "Bilan et premier entretien gratuit.\n\nSéance : 35 à 55 euros/séance.\n\nProgramme personnalisé : 110 à 300 euros (3 à 6 mois).";
-          document.getElementById("modalObjectifs").innerText =
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
-          break;
+      case "APA Perte de poids":
+        document.getElementById("modalDescription").innerText =
+          "Groupe ouvert, séance adaptée avec comme objectif premier la perte de poids.\n\nActivités possibles (renforcement musculaire global, cardio-training...).\n\nActivités optimisées et adaptées à la perte de poids.";
+        document.getElementById("modalTarifs").innerText =
+          "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
 
-        case "APA Perte de poids":
-          document.getElementById("modalDescription").innerText =
-            "Groupe ouvert, séance adaptée avec comme objectif premier la perte de poids.\n\nActivités possibles (renforcement musculaire global, cardio-training...).\n\nActivités optimisées et adaptées à la perte de poids.";
-          document.getElementById("modalTarifs").innerText =
-            "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
-          document.getElementById("modalObjectifs").innerText =
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
-          break;
+      case "APA du Dos":
+        document.getElementById("modalDescription").innerText =
+          "Groupe ouvert, séance adaptée pour des personnes ayant des douleurs au dos.";
+        document.getElementById("modalTarifs").innerText =
+          "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
+        document.getElementById("modalObjectifs").innerText =
+          "Renforcement du dos, activités adaptées aux douleurs dorsales, diminuer les douleurs.";
+        break;
 
-        case "APA du Dos":
-          document.getElementById("modalDescription").innerText =
-            "Groupe ouvert, séance adaptée pour des personnes ayant des douleurs au dos.";
-          document.getElementById("modalTarifs").innerText =
-            "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
-          document.getElementById("modalObjectifs").innerText =
-            "Renforcement du dos, activités adaptées aux douleurs dorsales, diminuer les douleurs.";
-          break;
+      case "APA Cognitif":
+        document.getElementById("modalDescription").innerText =
+          "Séance individuelle ou en binôme réservée aux patients avec une affection neurologique.\n\nAffection neuromusculaire, AVC, sclérose en plaques et d'autres.\n\n(Participation de l'aidant possible).";
+        document.getElementById("modalTarifs").innerText =
+          "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
 
-        case "APA Cognitif":
-          document.getElementById("modalDescription").innerText =
-            "Séance individuelle ou en binôme réservée aux patients avec une affection neurologique.\n\nAffection neuromusculaire, AVC, sclérose en plaques et d'autres.\n\n(Participation de l'aidant possible).";
-          document.getElementById("modalTarifs").innerText =
-            "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
-          document.getElementById("modalObjectifs").innerText =
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
-          break;
+      case "APA en fauteuil":
+        document.getElementById("modalDescription").innerText =
+          "Séances en groupe de 4 personnes.\nRenforcement musculaire en fauteuil, perte de poids, multi-activités adaptées... ";
+        document.getElementById("modalTarifs").innerText =
+          "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
 
-        case "APA en fauteuil":
-          document.getElementById("modalDescription").innerText =
-            "Séances en groupe de 4 personnes.\nRenforcement musculaire en fauteuil, perte de poids, multi-activités adaptées... ";
-          document.getElementById("modalTarifs").innerText =
-            "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
-          document.getElementById("modalObjectifs").innerText =
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
-          break;
+      case "Multi-activités":
+        document.getElementById("modalDescription").innerText =
+          "Groupe ouvert, séance variée et ludique d'activité physique adaptée, cycle d'activités variables.";
+        document.getElementById("modalTarifs").innerText =
+          "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
 
-        case "Multi-activités":
-          document.getElementById("modalDescription").innerText =
-            "Groupe ouvert, séance variée et ludique d'activité physique adaptée, cycle d'activités variables.";
-          document.getElementById("modalTarifs").innerText =
-            "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
-          document.getElementById("modalObjectifs").innerText =
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
-          break;
+      case "Renforcement musculaire":
+        document.getElementById("modalDescription").innerText =
+          "Groupe ouvert, séance adaptée et personnalisée avec comme objectif premier un renforcement musculaire.\nActivités possibles (renforcement musculaire global, membres inférieurs, supérieurs...).";
+        document.getElementById("modalTarifs").innerText =
+          "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
 
-        case "Renforcement musculaire":
-          document.getElementById("modalDescription").innerText =
-            "Groupe ouvert, séance adaptée et personnalisée avec comme objectif premier un renforcement musculaire.\nActivités possibles (renforcement musculaire global, membres inférieurs, supérieurs...).";
-          document.getElementById("modalTarifs").innerText =
-            "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
-          document.getElementById("modalObjectifs").innerText =
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
-          break;
+      case "APA Pilates":
+        document.getElementById("modalDescription").innerText =
+          "Groupe ouvert, séance de pilates adaptée.";
+        document.getElementById("modalTarifs").innerText =
+          "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
 
-        case "APA Pilates":
-          document.getElementById("modalDescription").innerText =
-            "Groupe ouvert, séance de pilates adaptée.";
-          document.getElementById("modalTarifs").innerText =
-            "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
-          document.getElementById("modalObjectifs").innerText =
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
-          break;
-
-        default:
-          break;
-      }
+      default:
+        break;
     }
+  }
 </script>
 <div>
   <!-- TABLE -->
@@ -293,11 +293,13 @@
           <div style="flex: 1">
             <h3>Tarifs</h3>
             <p id="modalTarifs" class="modal-tarifs">Some text...</p>
-            <button class="modal-register-button">
-              <a href="https://www.google.com" style="color: white"
-                >Inscription</a
-              >
-            </button>
+            <div style="text-align: center">
+              <button class="modal-register-button">
+                <a href="https://www.google.com" style="color: white"
+                  >Inscription</a
+                >
+              </button>
+            </div>
           </div>
         </div>
       </div>
