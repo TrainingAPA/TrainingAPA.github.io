@@ -18,7 +18,7 @@
     switch (divId) {
       case "Salle de sport":
         document.getElementById("modalDescription").innerText =
-          "Accompagnement de 3 à 6 mois pour les personnes qui souhaitent commencer la salle de sport mais ne savent pas comment s'y prendre\n.Programme personnalisé et adapté sur devis";
+          "Accompagnement de 3 à 6 mois pour les personnes qui souhaitent commencer la salle de sport mais ne savent pas comment s'y prendre.\nProgramme personnalisé et adapté sur devis";
         document.getElementById("modalTarifs").innerText =
           "Bilan et premier entretien gratuit\nSéance : 35 à 55 euros/séance\n Programme personnalisé : 110 à 300 euros (3 à 6 mois).";
         document.getElementById("modalObjectifs").innerText =
@@ -281,9 +281,9 @@
       <!-- CONTENT -->
       <div class="modal-body">
         <!-- NEW 2-COLUMN LAYOUT -->
-        <div style="display: flex; justify-content: space-evenly">
+        <div style="display: flex; justify-content: space-between">
           <!-- LEFT COLUMN -->
-          <div>
+          <div style="flex: 2; margin-right: 20px">
             <h3>Description</h3>
             <p id="modalDescription" class="modal-description">Some text...</p>
             <button class="modal-register-button">
@@ -293,7 +293,7 @@
             </button>
           </div>
           <!-- RIGHT COLUMN -->
-          <div>
+          <div style="flex: 1">
             <h3>Tarifs</h3>
             <p id="modalTarifs" class="modal-tarifs">Some text...</p>
             <h3>Objectifs</h3>
