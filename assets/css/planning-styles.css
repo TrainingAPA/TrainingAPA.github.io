@@ -71,6 +71,21 @@
   width: 60%;
 }
 
+.modal-description {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  font-size: 1.5em;
+}
+
+.modal-tarifs {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 1.2em;
+  color: #4dbab4;
+}
+
 .modal-register-button {
   background-color: #4dbab4;
   padding: 10px 20px;
