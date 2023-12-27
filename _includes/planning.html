@@ -17,13 +17,20 @@
   function fillModalContent(divId) {
     switch (divId) {
       case "Salle de sport":
-        document.getElementById("modalDescription").innerText =
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
-        document.getElementById("modalTarifs").innerText =
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        document.getElementById(
+          "modalDescription"
+        ).innerText = `Accompagnement de 3 à 6 mois pour les personnes qui souhaitent commencer la salle de sport mais ne savent pas comment s'y prendre${(
+          <br />
+        )}.Programme personnalisé et adapté sur devis`;
+        document.getElementById(
+          "modalTarifs"
+        ).innerText = `Bilan et premier entretien gratuit${(<br />)}
+        Séance : 35 à 55 euros/séance${(<br />)}
+        Programme personnalisé : 110 à 300 euros (3 à 6 mois).`;
         document.getElementById("modalObjectifs").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
         break;
+
       case "APA Perte de poids":
         document.getElementById("modalDescription").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
@@ -32,6 +39,7 @@
         document.getElementById("modalObjectifs").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
         break;
+
       case "APA du Dos":
         document.getElementById("modalDescription").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
@@ -40,6 +48,7 @@
         document.getElementById("modalObjectifs").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
         break;
+
       case "APA Cognitif":
         document.getElementById("modalDescription").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
@@ -48,6 +57,7 @@
         document.getElementById("modalObjectifs").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
         break;
+
       case "APA en fauteuil":
         document.getElementById("modalDescription").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
@@ -56,6 +66,7 @@
         document.getElementById("modalObjectifs").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
         break;
+
       case "Multi-activités":
         document.getElementById("modalDescription").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
@@ -64,6 +75,7 @@
         document.getElementById("modalObjectifs").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
         break;
+
       case "Renforcement musculaire":
         document.getElementById("modalDescription").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
@@ -72,6 +84,7 @@
         document.getElementById("modalObjectifs").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
         break;
+
       case "APA Pilates":
         document.getElementById("modalDescription").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.";
@@ -80,6 +93,7 @@
         document.getElementById("modalObjectifs").innerText =
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
         break;
+
       default:
         break;
     }
@@ -289,7 +303,7 @@
             <h3>Tarifs</h3>
             <p id="modalTarifs">Some text...</p>
             <h3>Objectifs</h3>
-            <p if="modalObjectifs">Some text...</p>
+            <p id="modalObjectifs">Some text...</p>
           </div>
         </div>
       </div>
