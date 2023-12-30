@@ -48,6 +48,18 @@
     cursor: pointer;
   }
 }
+/* NAVIGATION */
+#prev,
+#next {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #prev,
+  #next {
+    display: block;
+  }
+}
 
 /* MODAL */
 .modal {
