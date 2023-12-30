@@ -132,6 +132,9 @@
     width: 80%;
     margin-top: 30%;
   }
+  .modal-body {
+    padding: 0;
+  }
   .modal-image {
     width: 100%;
   }
