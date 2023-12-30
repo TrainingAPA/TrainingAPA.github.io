@@ -71,6 +71,10 @@
   width: 60%;
 }
 
+.modal-image {
+  width: 40%;
+}
+
 .modal-description {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -123,5 +127,12 @@
 @media (max-width: 600px) {
   .columns {
     flex-direction: column;
+  }
+  .modal-content {
+    width: 80%;
+    margin-top: 30%;
+  }
+  .modal-image {
+    width: 100%;
   }
 }
