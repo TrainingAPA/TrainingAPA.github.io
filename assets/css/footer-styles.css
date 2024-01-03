@@ -34,6 +34,8 @@ form input[type="submit"] {
   float: left;
   width: 50%;
   padding: 10px;
+  flex: 1;
+  margin-bottom: 20px;
 }
 
 /* Clear floats after the columns */
@@ -43,12 +45,6 @@ form input[type="submit"] {
   clear: both;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
 
 /* Google map */
 .google-map {
@@ -65,19 +61,14 @@ form input[type="submit"] {
   position: absolute;
 }
 
-/* Responsive layout
+/* Responsive layout */
 .row {
   display: flex;
   justify-content: space-between;
-}
-
-.footer-column {
-  flex: 1;
-  margin-bottom: 20px;
 }
 
 @media (max-width: 600px) {
   .row {
     flex-direction: column;
   }
-} */
+}
