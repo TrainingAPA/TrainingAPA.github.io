@@ -64,3 +64,20 @@ form input[type="submit"] {
   top: 0;
   position: absolute;
 }
+
+/* Responsive layout */
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
