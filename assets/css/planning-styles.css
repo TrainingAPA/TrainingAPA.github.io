@@ -1,4 +1,8 @@
 /* TABLE */
+.table-container {
+  overflow-x: auto;
+}
+
 .planning-table {
   width: -webkit-fill-available;
   border-collapse: separate;
@@ -46,6 +50,17 @@
     height: 70%;
     flex-direction: column;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 600px) {
+  .planning-table {
+    width: 600px;
+    display: block;
+  }
+  .planning-table th,
+  .planning-table td {
+    display: block;
   }
 }
 
