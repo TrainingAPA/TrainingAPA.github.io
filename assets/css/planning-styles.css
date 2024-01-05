@@ -69,11 +69,11 @@
     width: 6em;
   }
   /* ROW 2ND ELEMENT */
-  tr:nth-child(2) td:not(:first-child) {
+  tr:not:nth-child(1) td:not(:first-child) {
     border-top: 3px solid #4dbab4;
     border-bottom: 2px dashed #4dbab4;
   }
-  
+
   /* ROWS */
   td {
     border-left: 3px solid #4dbab4;
