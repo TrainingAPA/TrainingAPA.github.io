@@ -1,9 +1,5 @@
 /* TABLE */
-.table-container {
-  overflow-x: auto;
-}
-
-.planning-table {
+.planning-desktop {
   width: -webkit-fill-available;
   border-collapse: separate;
   border-spacing: 25px 0;
@@ -53,14 +49,18 @@
   }
 }
 
+/* TABLE FOR MOBILE */
+.planning-mobile {
+  display: none;
+}
+
+/* SHOW CORRECT PLANNING ACCORDINF TO SCREEN SIZE */
 @media (max-width: 600px) {
-  .planning-table {
-    width: 600px;
-    display: block;
+  .planning-desktop {
+    display: none;
   }
-  .planning-table th,
-  .planning-table td {
-    display: block;
+  .planning-mobile {
+    display: table;
   }
 }
 
