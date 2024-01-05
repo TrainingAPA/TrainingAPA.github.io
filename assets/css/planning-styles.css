@@ -4,7 +4,6 @@
   border-collapse: separate;
   border-spacing: 25px 0;
   table-layout: fixed;
-  width: 100%;
 
   tr:last-child td:not(:first-child) {
     border-bottom: 3px solid #4dbab4;
@@ -52,6 +51,45 @@
 /* TABLE FOR MOBILE */
 .planning-mobile {
   display: none;
+  width: -webkit-fill-available;
+  border-collapse: separate;
+  border-spacing: 25px 0;
+  table-layout: fixed;
+  
+  /* COLUMNS HEADINGS */
+  th {
+    color: #4dbab4;
+  }
+  /* COLUMNS */
+  th:not(:first-child) {
+    text-align: center;
+  }
+  /* ROWS HEADINGS */
+  td:first-child {
+    border: none;
+    text-align: right;
+    color: #005f73;
+    width: min-content;
+  }
+  /* ROWS */
+  td {
+    border-left: 3px solid #4dbab4;
+    border-right: 3px solid #4dbab4;
+    height: 100px;
+  }
+  /* CELLS */
+  div {
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 70%;
+    flex-direction: column;
+    cursor: pointer;
+  }
 }
 
 /* SHOW CORRECT PLANNING ACCORDINF TO SCREEN SIZE */
