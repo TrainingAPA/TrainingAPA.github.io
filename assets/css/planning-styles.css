@@ -68,12 +68,6 @@
     width: 6em;
   }
 
-  /* ALL 2ND ROWS */
-  td:nth-child(2) {
-    border-top: 3px solid #4dbab4;
-    border-bottom: 2px dashed #4dbab4;
-  }
-
   /* ROWS */
   td {
     border-left: 3px solid #4dbab4;
