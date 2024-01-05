@@ -69,7 +69,7 @@
   }
 
   /* ALL 2ND ROWS */
-  tr:nth-child(2) {
+  td:nth-child(2) {
     border-top: 3px solid #4dbab4;
     border-bottom: 2px dashed #4dbab4;
   }
