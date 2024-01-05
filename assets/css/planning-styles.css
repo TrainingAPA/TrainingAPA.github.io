@@ -55,26 +55,30 @@
   border-collapse: separate;
   border-spacing: 25px 0;
   table-layout: fixed;
-  
+
   /* COLUMNS HEADINGS */
-  th {
+  h2 {
     color: #4dbab4;
-  }
-  /* COLUMNS */
-  th:not(:first-child) {
-    text-align: center;
+    font-size: larger;
   }
   /* ROWS HEADINGS */
   td:first-child {
     border: none;
-    text-align: right;
+    text-align: center;
     color: #005f73;
-    width: min-content;
+    width: 6em;
   }
+  /* ROW 2ND ELEMENT */
+  tr:nth-child(2) td:not(:first-child) {
+    border-top: 3px solid #4dbab4;
+    border-bottom: 2px dashed #4dbab4;
+  }
+  
   /* ROWS */
   td {
     border-left: 3px solid #4dbab4;
     border-right: 3px solid #4dbab4;
+    border-bottom: 3px solid #4dbab4;
     height: 100px;
   }
   /* CELLS */
