@@ -10,7 +10,7 @@ subtitle: TODO subtitle
 
 Notre accompagnement par un enseignant en activité physique adaptée permet de **prévenir l’apparition des TMS** mais aussi d’**accompagner les personnes** qui ont déjà développé ces douleurs avec un programme et des exercices adaptés à ces pathologies.  
 
-Depuis 2021 des <u>**exonérations**</u> sont possibles pour la pratique d’une activité physique en entreprise, alors n'attendez plus !
+Depuis 2021 des <u><b>exonérations</b></u> sont possibles pour la pratique d’une activité physique en entreprise, alors n'attendez plus !
 
 
 ### Améliorer la santé et le bien être de vos employés.  
