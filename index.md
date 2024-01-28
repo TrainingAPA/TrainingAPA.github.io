@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Découvrez Training APA
-subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maximas vero virtutes iacere omnis necesse est voluptate dominante
+subtitle: Centre de remise en forme et d’activité physique adaptée.
 cover-img: "./assets/img/path.jpg"
 ---
 
@@ -30,7 +30,7 @@ Elle permets également un remboursement par les mutuelles selon votre condition
   
 ---
 # Le fonctionnement:
-<img src="./assets/img/fonctionnement.png" />  
+<img src="./assets/img/fonctionnement.png" style="width: 100%" />  
 
 ---
 # Qui suis-je ?
