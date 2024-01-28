@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Le sport en entreprise
-subtitle: TODO subtitle
 ---
 
 ## Le sport en entreprise
