@@ -1,4 +1,11 @@
 /* TABLE */
+.planning-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
 .planning-desktop {
   width: -webkit-fill-available;
   border-collapse: separate;
