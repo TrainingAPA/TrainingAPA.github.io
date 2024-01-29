@@ -3,6 +3,7 @@ layout: home
 title: Découvrez Training APA
 subtitle: Centre de remise en forme et d’activité physique adaptée.
 cover-img: "./assets/img/path.jpg"
+css: index
 ---
 
 # Accompagnement dans vos objectifs bien être et santé 
