@@ -33,12 +33,11 @@ Elle permets également un remboursement par les mutuelles selon votre condition
 <img src="./assets/img/fonctionnement.png" style="width: 100%" />  
 
 ---
-# Qui suis-je ?
+# Alban BRIERE - Fondateur de Training APA
 <!-- <img style="float: right;" src="./assets/img/avatar-icon.png">
  -->
 <img align="left" height="400" src="./assets/img/avatar-icon.png" style="margin-right: 10%" />
 
-## Alban BRIERE
 **Ingénieur en activité physique adaptée**
 
 ### Formation
@@ -46,4 +45,4 @@ Formations Licence et Master en Ingénierie de la rééducation, du handicap et 
 Formation en éducation thérapeutique du patient. 
 
 ### Experiences
-J’ai travaillé dans plusieurs structures comme des centres de rééducation, des hôpitaux ou encore à *l’Agence Régionale de Santé* ou j’ai pu accompagner de multiples personnes.
+Interventions dans plusieurs établissements, centre de rééducation, hôpitaux, agence régionale de santé (ARS), maison sport santé, ehpad et en libéral. 
