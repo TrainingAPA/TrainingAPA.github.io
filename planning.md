@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Planning
-subtitle: TODO subtitle
+title: Planning - APA collectif
+subtitle: Toutes nos séances de groupe (maximum 6 personnes) sont adaptées au travers d'activités spécifiques. 
 ---
 
 <!-- Include html -->

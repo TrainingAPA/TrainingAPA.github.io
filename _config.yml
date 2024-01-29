@@ -21,8 +21,8 @@ author: Alban Briere
 
 navbar-links:
   Accueil: "index"
+  Nos Séances individuelles: "programme"
   Planning: "planning"
-  Nos Séances individuelles: "seances"
   Le sport en entreprise: "sportEntreprise"
   Remboursement et mutuelle: "remboursement"
   Je me connecte: ""

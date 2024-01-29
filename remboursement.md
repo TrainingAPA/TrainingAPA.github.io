@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Remboursement et Mutuelle
+title: REMBOURSEMENT MUTUELLE
 subtitle: TODO subtitle
 ---
 

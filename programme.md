@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nos séances individuelles
+title: NOS PROGRAMMES
 subtitle: TODO subtitle
 ---
 
