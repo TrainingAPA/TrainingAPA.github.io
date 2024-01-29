@@ -5,21 +5,20 @@ subtitle: Centre de remise en forme et d’activité physique adaptée.
 cover-img: "./assets/img/path.jpg"
 ---
 
-# Training APA vous accompagne dans vos objectifs bien être et santé.  
+# Accompagnement dans vos objectifs bien être et santé 
 
-Il est parfois difficile de trouver le temps de prendre soin de notre santé physique. C'est là que notre expertise entre en jeu.  
-En tant qu’expert de l’activité physique adaptée (APA), **TRAINING APA** conçois des programmes sur mesure qui s'adaptent à votre niveau de condition physique, à vos préférences et à vos besoins spécifiques.  
+Il est parfois difficile de trouver le temps de prendre soin de notre santé physique. C’est là que notre expertise entre en jeu.
 
-**TRAINING APA** s'engage à vous aider à atteindre vos objectifs de bien-être de la manière la plus adaptée à vos besoins individuels.  
+En tant qu’expert de <a href="#apa-section">l’activité physique adaptée (APA)</a>, **TRAINING APA** conçois des programmes sur mesure qui s'adaptent à votre niveau de condition physique, à vos préférences et à vos besoins spécifiques.  
 <br/>
-Que vous soyez un débutant n’ayant jamais touché aux sports et à l’activité physique, que vous ayez des conditions médicales particulières, ou que vous recherchiez simplement une approche plus personnalisée pour atteindre vos objectifs, **TRAINING APA** est la pour vous guider à chaque étape.  
-<br/>
-Notre approche repose sur la bienveillance, l'adaptabilité et la motivation constante. 
 
-<br/>
+TRAINING APA s’engage à vous **aider pour atteindre vos objectifs de bien-être** de la manière la plus adaptée à **vos besoins** individuels.
+
+Que vous soyez **un débutant** n’ayant jamais touché aux sports et à l’activité physique, que vous ayez des **conditions médicales particulières**, ou que vous recherchiez simplement une **approche plus personnalisée** pour atteindre vos objectifs, TRAINING APA est là pour vous guider à chaque étape. 
 
 ---
-# L'ACTIVITÉ PHYSIQUE ADAPTÉE (APA)
+<h1 id="apa-section">L'ACTIVITÉ PHYSIQUE ADAPTÉE (APA)</h1>
+
 *L’activité physique adaptée (APA)* est reconnue comme <b style="color: #4DBAB4">une thérapie non médicamenteuse</b>. La pratique de l’APA est primordiale dans le traitement de nombreuses maladies chroniques mais aussi en prévention des ces maladies. Il est donc important d’en pratiquer régulièrement et le plus tôt possible.
 
 Le sport sur ordonnance a fait son apparition en 2016 et permet, grâce à une prescription du médecin de pratiquer de l’activité physique adaptée en toute sécurité selon vos besoins.
@@ -29,7 +28,7 @@ Elle permet également un remboursement par les mutuelles selon votre situation.
 [Plus d'infos](https://trainingapa.github.io/remboursement/)
   
 ---
-# FONCTIONNEMENT:
+# FONCTIONNEMENT
 <img src="./assets/img/fonctionnement.png" style="width: 100%" />  
 
 ---
