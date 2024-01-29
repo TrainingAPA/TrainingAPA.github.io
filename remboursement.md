@@ -1,7 +1,6 @@
 ---
 layout: page
 title: REMBOURSEMENT MUTUELLE
-subtitle: TODO subtitle
 ---
 
 ## Prise en charge.  
@@ -14,4 +13,4 @@ Il n’est pas possible de bénéficier d’un remboursement de la part de l’A
 - **Par votre complémentaire santé** : sur présentation d’une ordonnance, certaines mutuelles remboursent la pratique d’une APA.
   - <a href="/assets/pdf/Mutuelle.pdf" target="_blank">Plus d’informations</a> (Proposé par Azur Sport Santé, 2023) 
   
-<span style="font-size: small; text-decoration: underline">Information issue de monparcourshandicap.gouv.fr</span>
+<span style="font-size: small; text-decoration: underline"><i>Information issue de monparcourshandicap.gouv.fr</i></span>
