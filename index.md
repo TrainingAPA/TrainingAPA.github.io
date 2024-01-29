@@ -15,10 +15,10 @@ En tant qu’expert de <a href="#apa-section">l’activité physique adaptée (A
 
 TRAINING APA s’engage à vous **aider pour atteindre vos objectifs de bien-être** de la manière la plus adaptée à **vos besoins** individuels.
 
-Que vous soyez **un débutant** n’ayant jamais touché aux sports et à l’activité physique, que vous ayez des **conditions médicales particulières**, ou que vous recherchiez simplement une **approche plus personnalisée** pour atteindre vos objectifs, TRAINING APA est là pour vous guider à chaque étape. 
+Que vous soyez **un débutant** n’ayant jamais touché aux sports et à l’activité physique, que vous ayez des **conditions médicales particulières**, ou que vous recherchiez simplement une **approche plus personnalisée** pour atteindre vos objectifs, <span id="apa-section">TRAINING APA</span> est là pour vous guider à chaque étape. 
 
 ---
-<h1 id="apa-section">L'ACTIVITÉ PHYSIQUE ADAPTÉE (APA)</h1>
+# L'ACTIVITÉ PHYSIQUE ADAPTÉE (APA)
 
 *L’activité physique adaptée (APA)* est reconnue comme <b style="color: #4DBAB4">une thérapie non médicamenteuse</b>. La pratique de l’APA est primordiale dans le traitement de nombreuses maladies chroniques mais aussi en prévention des ces maladies. Il est donc important d’en pratiquer régulièrement et le plus tôt possible.
 
