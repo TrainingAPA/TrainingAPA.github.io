@@ -19,17 +19,17 @@ Notre approche repose sur la bienveillance, l'adaptabilité et la motivation con
 <br/>
 
 ---
-# L’APA
-L'activité physique adaptée (APA) est reconnue comme une thérapie non médicamenteuse. La pratique de l’APA est primordiale dans le traitement de nombreuses maladies chroniques mais aussi en prévention des ces maladies. Il est donc important d’en pratiquer régulièrement et le plus tôt possible.
+# L'ACTIVITÉ PHYSIQUE ADAPTÉE (APA)
+*L’activité physique adaptée (APA)* est reconnue comme <b style="color: #4DBAB4">une thérapie non médicamenteuse</b>. La pratique de l’APA est primordiale dans le traitement de nombreuses maladies chroniques mais aussi en prévention des ces maladies. Il est donc important d’en pratiquer régulièrement et le plus tôt possible.
 
-Le sport sur ordonnance a fait son apparition depuis 2016 et permet, grâce à une prescription du médecin de pratiquer de l’activité physique adaptée en toute sécurité selon vos limitations. 
+Le sport sur ordonnance a fait son apparition en 2016 et permet, grâce à une prescription du médecin de pratiquer de l’activité physique adaptée en toute sécurité selon vos besoins.
 
-Elle permets également un remboursement par les mutuelles selon votre condition. 
+Elle permet également un remboursement par les mutuelles selon votre situation.
 
 [Plus d'infos](https://trainingapa.github.io/remboursement/)
   
 ---
-# Le fonctionnement:
+# FONCTIONNEMENT:
 <img src="./assets/img/fonctionnement.png" style="width: 100%" />  
 
 ---
