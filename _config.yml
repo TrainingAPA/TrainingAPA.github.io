@@ -21,10 +21,10 @@ author: Alban Briere
 
 navbar-links:
   Accueil: "index"
-  Nos Séances individuelles: "programme"
+  Nos programmes: "programme"
   Planning: "planning"
   Le sport en entreprise: "sportEntreprise"
-  Remboursement et mutuelle: "remboursement"
+  Remboursement Mutuelle: "remboursement"
   Je me connecte: ""
 
 ################
