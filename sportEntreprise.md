@@ -20,9 +20,9 @@ Intervention adaptée aux postes et aux contraintes spécifiques de chaque profe
 
 
 ## Objectifs :
-### 1. Meilleure qualité de vie au travail pour les employés.  
-### 2. Augmentation de la productivité.  
-### 3. Prévention d’apparition des maladies professionnels, diminution des arrêts maladies.
+1. <p style="font-size: x-large" >Meilleure qualité de vie au travail pour les employés.</p>
+2. <p style="font-size: x-large" >Augmentation de la productivité.</p>  
+3. <p style="font-size: x-large" >Prévention d’apparition des maladies professionnels, diminution des arrêts maladies.</p>
 
 Possibilité de réaliser des séances à domicile sur période télétravail.
 Cette offre est dispensée uniquement sur devis uniquement.
