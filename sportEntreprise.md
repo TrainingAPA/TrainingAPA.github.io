@@ -3,27 +3,28 @@ layout: page
 title: Le sport en entreprise
 ---
 
-**En 2019, 88 % des maladies professionnelles déclarées concernaient des troubles musculosquelettiques (TMS)**. Délétères à la fois pour les salariés et l’entreprise, les TMS se manifestent le plus souvent au travail par des tendinopathies, des syndromes du canal carpien ou encore des lombalgies.  
+**En 2019, 88 % des maladies professionnelles déclarées concernaient des troubles musculosquelettiques (TMS)**. Délétères à la fois pour les salariés et l’entreprise, les TMS se manifestent le plus souvent au travail par des tendinopathies, des syndromes du canal carpien ou encore des lombalgies. 
 
-Notre accompagnement par un enseignant en activité physique adaptée permet de **prévenir l’apparition des TMS** mais aussi d’**accompagner les personnes** qui ont déjà développé ces douleurs avec un programme et des exercices adaptés à ces pathologies.  
+Notre accompagnement par un enseignant en activité physique adaptée permet de **prévenir l’apparition des TMS** mais aussi d’**accompagner les personnes** qui ont déjà développé ces douleurs avec un programme et des exercices adaptés à ces pathologies. 
 
-Depuis 2021 des <u><b>exonérations</b></u> sont possibles pour la pratique d’une activité physique en entreprise, alors n'attendez plus !
+Depuis 2021 des <u><b>exonérations</b></u> sont possibles pour la pratique d’une activité physique en entreprise, **alors n'attendez plus !**
 
 
-### Améliorer la santé et le bien être de vos employés.  
+### <b style="color: #4DBAB4"><u>Améliorer la santé et le bien être de vos employés.</u></b>
 
-Training APA propose une intervention spécifique au sein de votre entreprise afin de sensibiliser sur les risques liés à la sédentarité et à l’inactivité physique et sur les bénéfices d’une activité physique adaptée sur le lieu de travail.  
+TRAINING APA propose une intervention spécifique au sein de votre entreprise afin de sensibiliser sur les risques liés à la sédentarité et à l’inactivité physique et sur les bénéfices d’une activité physique adaptée sur le lieu de travail.
 
-Mise en pratique de gestes et d’exercice pour préserver le bon fonctionnement corporel et réduire les troubles musculo-squelettiques liés aux pratiques professionnels.  
+Mise en pratique de gestes et d’exercices pour préserver le bon fonctionnement corporel et réduire les troubles musculo-squelettiques liés aux pratiques professionnelles. 
 
-Intervention adaptée aux postes et aux contraintes spécifiques de chaque professionnel 
+Intervention adaptée aux postes et aux contraintes spécifiques de chaque professionnel. 
 
 
 ## Objectifs :
-1. Meilleure qualité de vie au travail pour les employés.  
-2. Augmentation de la productivité.  
-3. Prévention d’apparition des maladies professionnels, diminution des arrêts maladies.
+### 1. Meilleure qualité de vie au travail pour les employés.  
+### 2. Augmentation de la productivité.  
+### 3. Prévention d’apparition des maladies professionnels, diminution des arrêts maladies.
 
-Possibilité de réaliser des séances à domicile sur période télétravail.  
-*Sur devis uniquement.  
+Possibilité de réaliser des séances à domicile sur période télétravail.
+Cette offre est dispensée uniquement sur devis uniquement.
+
 
