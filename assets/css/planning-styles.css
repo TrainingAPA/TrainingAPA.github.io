@@ -8,7 +8,6 @@
 }
 
 .planning-desktop {
-  width: -webkit-fill-available;
   border-collapse: separate;
   border-spacing: 25px 0;
   table-layout: fixed;
@@ -58,7 +57,6 @@
 
 /* TABLE FOR SATURDAY (DESKTOP) */
 .planning-saturday-desktop {
-  width: -webkit-fill-available;
   border-collapse: separate;
   border-spacing: 25px 0;
   table-layout: fixed;
