@@ -148,12 +148,15 @@
   }
 }
 
-/* SHOW CORRECT PLANNING ACCORDINF TO SCREEN SIZE */
+/* SHOW CORRECT PLANNING ACCORDING TO SCREEN SIZE */
 @media (max-width: 600px) {
   .planning-desktop {
     display: none;
   }
   .planning-mobile {
+    display: table;
+  }
+  .planning-saturday-mobile {
     display: table;
   }
 }
