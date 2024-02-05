@@ -97,13 +97,13 @@
           "Préparation physique et séances adaptées selon objectif, reprendre la course, apprentissage, renforcement musculaire spécifique à la course, prévention et préparation à la course à pied.";
         break;
 
-      case "Marche nordique - debutant":
+      case "Marche nordique - débutant":
         document.getElementById("modalDescription").innerText =
           "Groupe ouvert, séance de marche nordique. Sortie en extérieur sur les rives de l'étang du ter et d'autres lieux proches de Lorient.\nAnnulation en cas d'intempérie, non facturée.\nGroupe ouvert à tous débutant en marche nordique.";
         document.getElementById("modalTarifs").innerText =
           "Bilan et premier entretien gratuit.\n\nSéance : 5 euros/séance.";
         document.getElementById("modalObjectifs").innerText =
-          "Apprentissage technique de la marche nordique";
+          "Apprentissage technique de la marche nordique.";
         break;
 
       case "Marche nordique":
@@ -600,7 +600,7 @@
         <td>10-11h</td>
         <td style="height: 130px">
           <div
-            onclick="openModal('Marche nordique - debutant')"
+            onclick="openModal('Marche nordique - débutant')"
             class="clickable"
             style="background-color: blue"
           >
@@ -642,7 +642,7 @@
           style="display: flex; justify-content: space-between"
         >
           <!-- LEFT COLUMN -->
-          <div class="column" style="flex: 2; margin-right: 20px">
+          <div class="column" style="flex: 2">
             <h3>Description</h3>
             <p id="modalDescription" class="modal-description">Some text...</p>
             <h3>Objectifs</h3>
