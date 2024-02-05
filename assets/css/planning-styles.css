@@ -111,7 +111,6 @@
   }
   /* ROWS HEADINGS */
   td:first-child {
-    border: none;
     text-align: center;
     color: #005f73;
     width: 6em;
@@ -125,7 +124,7 @@
     height: 120px;
   }
   /* CELLS */
-  div {
+  .clickable {
     color: #ffffff;
     text-align: center;
     justify-content: center;
@@ -137,9 +136,16 @@
     flex-direction: column;
     cursor: pointer;
   }
+  .info {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+  }
   /* TEXTS */
   u {
-    font-size: 0.6em;
+    font-size: 0.8em;
     color: #4dbab4;
   }
 }
