@@ -5,6 +5,7 @@
   text-align: center;
   display: flex;
   justify-content: space-between;
+  margin-left: -10%;
 }
 
 .planning-desktop {
@@ -26,7 +27,7 @@
   /* COLUMNS */
   th:not(:first-child) {
     text-align: center;
-    min-width: 8em;
+    min-width: 10em;
   }
   /* ROWS HEADINGS */
   td:first-child {
@@ -69,6 +70,7 @@
   /* COLUMNS */
   th:not(:first-child) {
     text-align: center;
+    min-width: 10em;
   }
   /* ROWS HEADINGS */
   td:first-child {
