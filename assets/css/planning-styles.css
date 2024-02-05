@@ -5,7 +5,7 @@
   text-align: center;
   display: flex;
   justify-content: space-between;
-  margin-left: -10%;
+  margin-left: -20%;
 }
 
 .planning-desktop {
@@ -34,7 +34,7 @@
     border: none;
     text-align: right;
     color: #005f73;
-    width: 5em;
+    min-width: 6em;
   }
   /* ROWS */
   td {
@@ -77,7 +77,7 @@
     border: none;
     text-align: right;
     color: #005f73;
-    width: 5em;
+    min-width: 4em;
   }
   /* ROWS */
   td {
