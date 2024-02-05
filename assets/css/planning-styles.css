@@ -111,6 +111,7 @@
   }
   /* ROWS HEADINGS */
   td:first-child {
+    border: none;
     text-align: center;
     color: #005f73;
     width: 6em;
