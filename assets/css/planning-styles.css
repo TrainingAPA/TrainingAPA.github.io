@@ -32,7 +32,7 @@
     border: none;
     text-align: right;
     color: #005f73;
-    width: min-content;
+    width: 10em;
   }
   /* ROWS */
   td {
