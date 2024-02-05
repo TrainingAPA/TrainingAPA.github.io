@@ -26,13 +26,14 @@
   /* COLUMNS */
   th:not(:first-child) {
     text-align: center;
+    min-width: 8em;
   }
   /* ROWS HEADINGS */
   td:first-child {
     border: none;
     text-align: right;
     color: #005f73;
-    width: 10em;
+    width: 5em;
   }
   /* ROWS */
   td {
@@ -74,7 +75,7 @@
     border: none;
     text-align: right;
     color: #005f73;
-    width: min-content;
+    width: 5em;
   }
   /* ROWS */
   td {
