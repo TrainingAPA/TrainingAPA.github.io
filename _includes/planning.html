@@ -88,6 +88,33 @@
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
         break;
 
+      case "Reprise de la course":
+        document.getElementById("modalDescription").innerText =
+          "Groupe ouvert, séance individuelle adaptée et suivi personnalisé de 3 mois de reprises de la course.\nPour les personnes qui souhaitent reprendre la course après un grand temps d'arrêt.";
+        document.getElementById("modalTarifs").innerText =
+          "Bilan et premier entretien gratuit.\n\nSéance : 35 euros/séance.\n\nProgramme personnalisé, renforcement à la maison en extérieur, les prérequis de la course à pieds : 110 à 300 euros.";
+        document.getElementById("modalObjectifs").innerText =
+          "Préparation physique et séances adaptées selon objectif, reprendre la course, apprentissage, renforcement musculaire spécifique à la course, prévention et préparation à la course à pied.";
+        break;
+
+      case "Marche nordique - debutant":
+        document.getElementById("modalDescription").innerText =
+          "Groupe ouvert, séance de marche nordique. Sortie en extérieur sur les rives de l'étang du ter et d'autres lieux proches de Lorient.\nAnnulation en cas d'intempérie, non facturée.\nGroupe ouvert à tous débutant en marche nordique.";
+        document.getElementById("modalTarifs").innerText =
+          "Bilan et premier entretien gratuit.\n\nSéance : 5 euros/séance.";
+        document.getElementById("modalObjectifs").innerText =
+          "Apprentissage technique de la marche nordique";
+        break;
+
+      case "Marche nordique":
+        document.getElementById("modalDescription").innerText =
+          "Groupe ouvert, séance de marche nordique. Sortie en extérieur sur les rives de l'étang du ter et d'autres lieux proches de Lorient.\nAnnulation en cas d'intempérie, non facturée.\nGroupe intermédiaire à confirmé en marche nordique.";
+        document.getElementById("modalTarifs").innerText =
+          "Bilan et premier entretien gratuit.\n\nSéance : 5 euros/séance.";
+        document.getElementById("modalObjectifs").innerText =
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        break;
+
       default:
         break;
     }
@@ -573,7 +600,7 @@
         <td>10-11h</td>
         <td>
           <div
-            onclick="openModal('Marche nordique debutant')"
+            onclick="openModal('Marche nordique - debutant')"
             class="clickable"
             style="background-color: blue"
           >
