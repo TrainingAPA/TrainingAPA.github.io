@@ -97,6 +97,57 @@
   }
 }
 
+/* TABLE FOR SATURDAY (MOBILE) */
+.planning-saturday-mobile {
+  display: none;
+  width: -webkit-fill-available;
+  border-collapse: separate;
+  border-spacing: 25px 0;
+  table-layout: fixed;
+
+  /* COLUMNS HEADINGS */
+  h3 {
+    color: #4dbab4;
+  }
+  /* ROWS HEADINGS */
+  td:first-child {
+    border: none;
+    text-align: center;
+    color: #005f73;
+    width: 6em;
+  }
+
+  /* ROWS */
+  td {
+    border-left: 3px solid #4dbab4;
+    border-right: 3px solid #4dbab4;
+    border-bottom: 3px solid #4dbab4;
+    height: 120px;
+  }
+  /* CELLS */
+  div {
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 70%;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  /* TEXTS */
+  p {
+    font-size: 0.8em;
+    color: #005f73;
+  }
+  u {
+    font-size: 0.6em;
+    color: #4dbab4;
+  }
+}
+
 /* SHOW CORRECT PLANNING ACCORDINF TO SCREEN SIZE */
 @media (max-width: 600px) {
   .planning-desktop {
