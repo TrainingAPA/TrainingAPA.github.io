@@ -1,6 +1,6 @@
 ---
 layout: home
-title: <h1 style="color:white">Découvrez Training APA<h1/>
+title: <h1 style="color:white">Découvreeez Training APA<h1/>
 subtitle: Centre de remise en forme et d’activité physique adaptée.
 cover-img: "./assets/img/path.jpg"
 ---
