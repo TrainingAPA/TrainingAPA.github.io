@@ -685,7 +685,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 
 /* White title for index page */
-body.home-layout .intro-header .page-heading h1 {
+.home-layout .intro-header .page-heading h1 {
   color: white;
 }
 
