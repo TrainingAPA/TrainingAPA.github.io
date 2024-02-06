@@ -684,8 +684,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   color: #005F73;
 }
 
-/* Index page only white title */
-body.index .page-heading {
+/* White title for index page */
+body.home-layout .intro-header .page-heading h1 {
   color: white;
 }
 
@@ -1096,8 +1096,4 @@ pre {
   #nav-search-text {
     display: inline-block;
   }
-}
-
-.index-main-title {
-  color: white;
 }

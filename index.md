@@ -1,6 +1,7 @@
+<body class="home-layout">
 ---
 layout: home
-title: <h1 class="index-main-title">Découvrez Training APA<h1/>
+title: Découvrez Training APA
 subtitle: Centre de remise en forme et d’activité physique adaptée.
 cover-img: "./assets/img/path.jpg"
 ---
@@ -60,3 +61,4 @@ Formation en éducation thérapeutique du patient.
 
 ### Experiences
 Interventions dans plusieurs établissements, centre de rééducation, hôpitaux, agence régionale de santé (ARS), maison sport santé, ehpad et en libéral. 
+</body>
