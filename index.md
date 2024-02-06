@@ -8,15 +8,15 @@ css: index
 
 # Accompagnement dans vos objectifs bien être et santé 
 
-<img align="right" height="200" src="/assets/images/9.png" />
+<img align="right" height="250" style="margin: -2% 0 0 1%" src="/assets/images/9.png" />
 
 Il est parfois difficile de trouver le temps de prendre soin de notre santé physique. C’est là que notre expertise entre en jeu.
 
 En tant qu’expert de <a href="#apa-section">l’activité physique adaptée (APA)</a>, **TRAINING APA** conçois des programmes sur mesure qui s'adaptent à votre niveau de condition physique, à vos préférences et à vos besoins spécifiques.  
-<div style="margin-bottom: 10em">
+<div style="margin-bottom: 7em">
 </div>
 
-<img align="left" height="200" style="margin-right: 5%" src="/assets/images/4.png" />
+<img align="left" height="300" style="margin: -5% 5% 0 0" src="/assets/images/4.png" />
 
 TRAINING APA s’engage à vous **aider pour atteindre vos objectifs de bien-être** de la manière la plus adaptée à **vos besoins** individuels.
 
