@@ -30,7 +30,7 @@ Elle permet également un remboursement par les mutuelles selon votre situation.
   
 ---
 # FONCTIONNEMENT
-<img src="./assets/img/fonctionnement.png" style="width: 100%" /> 
+<img src="/assets/img/fonctionnement.png" style="width: 100%" /> 
 
 Vous pouvez prendre contact sans prescription médicale, tout accompagnement ne nécessite pas une prescription de sport sur ordonnance, dans certaines situations *un certificat d’aptitude à la pratique d’une activité physique/sportive* peut suffire.   
 <a href="/assets/pdf/Mutuelle.pdf" target="_blank"><u>Exemple de prescription médicale</u></a>
@@ -39,7 +39,7 @@ Vous pouvez prendre contact sans prescription médicale, tout accompagnement ne 
 # Alban BRIERE - Fondateur de Training APA
 <!-- <img style="float: right;" src="./assets/img/avatar-icon.png">
  -->
-<img align="left" height="400" src="./assets/img/avatar-icon.png" style="margin-right: 10%" />
+<img align="left" height="400" src="/assets/img/avatar-icon.png" style="margin-right: 10%" />
 
 **Ingénieur en activité physique adaptée**
 

@@ -9,10 +9,10 @@ Notre accompagnement par un enseignant en activité physique adaptée permet de 
 
 Depuis 2021 des <u><b>exonérations</b></u> sont possibles pour la pratique d’une activité physique en entreprise, **alors n'attendez plus !**
 
-<img src="./assets/images/bandeau_2.png" style="width: 100%" />
+<img src="/assets/images/bandeau_2.png" style="width: 100%" />
 
 ### <b style="color: #4DBAB4"><u>Améliorer la santé et le bien être de vos employés.</u></b>
-<img align="right" height="200" src="./assets/images/2.png" style="margin-right: 5%" />
+<img align="right" height="200" src="/assets/images/2.png" style="margin-right: 5%" />
 TRAINING APA propose une intervention spécifique au sein de votre entreprise afin de sensibiliser sur les risques liés à la sédentarité et à l’inactivité physique et sur les bénéfices d’une activité physique adaptée sur le lieu de travail.
 
 Mise en pratique de gestes et d’exercices pour préserver le bon fonctionnement corporel et réduire les troubles musculo-squelettiques liés aux pratiques professionnelles. 
