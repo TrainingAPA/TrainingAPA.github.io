@@ -26,8 +26,8 @@ Que vous soyez **un débutant** n’ayant jamais touché aux sports et à l’ac
 
 ---
 # L'ACTIVITÉ PHYSIQUE ADAPTÉE (APA)
-<img align="right" height="250" style="margin: -3% 0 0 0" src="./assets/images/6.png" />
-<img align="right" height="250" style="margin: -3% 0 0 2%" src="./assets/images/8.png" />
+<img align="right" height="250" style="margin: -3% 0 0 -3%" src="/assets/images/6.png" />
+<img align="right" height="250" style="margin: -3% 0 0 2%" src="/assets/images/8.png" />
 
 *L’activité physique adaptée (APA)* est reconnue comme <b style="color: #4DBAB4">une thérapie non médicamenteuse</b>. La pratique de l’APA est primordiale dans le traitement de nombreuses maladies chroniques mais aussi en prévention des ces maladies. Il est donc important d’en pratiquer régulièrement et le plus tôt possible.
 
