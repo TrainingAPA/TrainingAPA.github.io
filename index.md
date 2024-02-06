@@ -39,7 +39,9 @@ Elle permet également un remboursement par les mutuelles selon votre situation.
   
 ---
 # FONCTIONNEMENT
-<img src="/assets/img/fonctionnement.png" style="width: 100%" /> 
+<img src="/assets/images/bandeau_1.png" style="width: 100%" /> 
+
+<img align="left" height="50" style="margin: 0 2% 0 0" src="/assets/images/10.png" />
 
 Vous pouvez prendre contact sans prescription médicale, tout accompagnement ne nécessite pas une prescription de sport sur ordonnance, dans certaines situations *un certificat d’aptitude à la pratique d’une activité physique/sportive* peut suffire.   
 <a href="/assets/pdf/Mutuelle.pdf" target="_blank"><u>Exemple de prescription médicale</u></a>
