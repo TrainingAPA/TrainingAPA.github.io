@@ -38,7 +38,7 @@ Elle permet également un remboursement par les mutuelles selon votre situation.
 
 <hr style="border-top: 2px solid rgba(0,0,0,.1)">
 <h1>FONCTIONNEMENT</h1>
-<img src="/assets/images/bandeau_1.png" style="width: 100%" /> 
+<img src="/assets/images/bandeau_1.png" style="width: 100%; margin-top: 5%" /> 
 
 <img align="left" height="50" style="margin: 0 2% 0 0" src="/assets/images/10.png" />
 
