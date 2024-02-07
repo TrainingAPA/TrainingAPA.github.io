@@ -3,7 +3,7 @@ layout: page
 title: REMBOURSEMENT MUTUELLE
 ---
 
-## Prise en charge.  
+## Prise en charge  
 
 Il n’est pas possible de bénéficier d’un remboursement de la part de l’Assurance maladie pour la pratique de l’activité physique adaptée prescrite. Ainsi, il est possible de devoir soi-même régler l’intégralité des dépenses liées à l’APA.  
 **Deux types de prise en charge partielles ou totales** sont toutefois possibles :

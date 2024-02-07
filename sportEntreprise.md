@@ -11,7 +11,7 @@ Depuis 2021 des <u><b>exonérations</b></u> sont possibles pour la pratique d’
 
 <img src="/assets/images/bandeau_2.png" style="width: 100%; margin: 2em 0 4em 0;" />
 
-### <b style="color: #4DBAB4"><u>Améliorer la santé et le bien être de vos employés.</u></b>
+### <b style="color: #4DBAB4"><u>Améliorer la santé et le bien être de vos employés</u></b>
 <img align="right" style="width: 350px; margin: 0 0 1em 1em;"  src="/assets/images/11.png" />
 TRAINING APA propose une intervention spécifique au sein de votre entreprise afin de sensibiliser sur les risques liés à la sédentarité et à l’inactivité physique et sur les bénéfices d’une activité physique adaptée sur le lieu de travail.
 
