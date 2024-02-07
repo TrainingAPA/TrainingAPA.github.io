@@ -22,7 +22,7 @@ TRAINING APA s’engage à vous <b>aider pour atteindre vos objectifs de bien-ê
 Que vous soyez <b>un débutant</b> n’ayant jamais touché aux sports et à l’activité physique, que vous ayez des <b>conditions médicales particulières</b>, ou que vous recherchiez simplement une <b>approche plus personnalisée</b> pour atteindre vos objectifs, <span id="apa-section">TRAINING APA</span> est là pour vous guider à chaque étape. 
 <div style="margin-bottom: 5em"></div>
 
-<hr style="border-top: 2px solid #bbb">
+<hr style="border-top: 2px solid rgba(0,0,0,.1)">
 <h1>L'ACTIVITÉ PHYSIQUE ADAPTÉE (APA)</h1>
 <img align="right" height="250" style="margin: -3% 0 0 -3%" src="/assets/images/6.png" />
 <img align="right" height="250" style="margin: -3% 0 0 2%" src="/assets/images/8.png" />
@@ -36,7 +36,7 @@ Elle permet également un remboursement par les mutuelles selon votre situation.
 <a href="https://trainingapa.github.io/remboursement/">Plus d'infos</a> 
 <div style="margin-bottom: 5em"></div>
 
-<hr style="border-top: 2px solid #bbb">
+<hr style="border-top: 2px solid rgba(0,0,0,.1)">
 <h1>FONCTIONNEMENT</h1>
 <img src="/assets/images/bandeau_1.png" style="width: 100%" /> 
 
@@ -47,7 +47,7 @@ Vous pouvez prendre contact sans prescription médicale, tout accompagnement ne 
 
 <div style="margin-bottom: 5em"></div>
 
-<hr style="border-top: 2px solid #bbb">
+<hr style="border-top: 2px solid rgba(0,0,0,.1)">
 <h1>Alban BRIERE - Fondateur de Training APA</h1>
 <!-- <img style="float: right;" src="./assets/img/avatar-icon.png">
  -->
