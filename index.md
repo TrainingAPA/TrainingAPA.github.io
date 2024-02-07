@@ -38,7 +38,7 @@ Elle permet également un remboursement par les mutuelles selon votre situation.
 
 <hr style="border-top: 2px solid rgba(0,0,0,.1)">
 <h1>FONCTIONNEMENT</h1>
-<img src="/assets/images/bandeau_1.png" style="width: 100%; margin-top: 5%" /> 
+<img src="/assets/images/bandeau_1.png" style="width: 100%" /> 
 
 <img align="left" height="50" style="margin: 0 2% 0 0" src="/assets/images/10.png" />
 
@@ -51,7 +51,7 @@ Vous pouvez prendre contact sans prescription médicale, tout accompagnement ne 
 <h1>Alban BRIERE - Fondateur de Training APA</h1>
 <!-- <img style="float: right;" src="./assets/img/avatar-icon.png">
  -->
-<img align="left" height="400" src="/assets/img/avatar-icon.png" style="margin-right: 10%; margin-top: 5%" />
+<img align="left" height="400" src="/assets/img/avatar-icon.png" style="margin-right: 10%" />
 
 <b>Ingénieur en activité physique adaptée</b>
 
