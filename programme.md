@@ -5,7 +5,7 @@ subtitle: TODO subtitle
 ---
 
 
-## Séances individuelles ou à domicile.
+## Séances individuelles ou à domicile
 La forme la plus adaptée et personnalisée possible.  
 **Training APA** va directement chez vous ou sur votre lieu de travail pour vous proposer des séances adaptées et personnalisées, en fonction de votre emploi du temps et de vos limitations.  
 Chaque activité ou exercices proposées sont parfaitement personnalisées à vos conditions.
