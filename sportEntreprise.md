@@ -21,7 +21,7 @@ Intervention adaptée aux postes et aux contraintes spécifiques de chaque profe
 
 
 
- <h2 style="text-align: left; color: #005F73">Objectifs :</h2>
+ <h2 style="text-align: left; color: #005F73; margin-top: 4em">OBJECTIFS</h2>
 1. <p style="font-size: x-large" >Meilleure qualité de vie au travail pour les employés.</p>
 2. <p style="font-size: x-large" >Augmentation de la productivité.</p>  
 3. <p style="font-size: x-large" >Prévention d’apparition des maladies professionnels, diminution des arrêts maladies.</p>
