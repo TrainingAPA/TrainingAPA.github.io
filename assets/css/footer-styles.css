@@ -36,12 +36,13 @@ form input[type="submit"] {
   clear: both;
 }
 
-
 /* Google map */
 .google-map {
-  padding-bottom: 83%;
+  padding-bottom: 85%;
   position: relative;
-  border: 2px solid #777;
+  border: 2px solid #005f73;
+  border-radius: 1em;
+  overflow: hidden;
 }
 
 .google-map iframe {

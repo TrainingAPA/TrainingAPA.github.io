@@ -48,7 +48,8 @@ Vous pouvez prendre contact sans prescription médicale, tout accompagnement ne 
 <h1 style="margin-top: 4em">Alban BRIERE - Fondateur de Training APA</h1>
 <!-- <img style="float: right;" src="./assets/img/avatar-icon.png">
  -->
-<img align="left" height="300" src="/assets/images/pp.png" style="margin-right: 10%" />
+<img align="left" height="350px" src="/assets/images/pp.png"
+style="margin-right: 10%; border-radius: 1em; border: 2px solid #005f73;" />
 
 <b>Ingénieur en activité physique adaptée</b>
 
