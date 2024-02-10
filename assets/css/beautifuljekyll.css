@@ -707,7 +707,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 
 /* White title for index page */
 .home-layout {
-  line-height: 2em;
+  line-height: 2.5em;
 
   .intro-header .page-heading h1 {
     color: white;

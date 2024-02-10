@@ -30,7 +30,7 @@ Que vous soyez <b>un débutant</b> n’ayant jamais touché aux sports et à l�
 
 Le sport sur ordonnance a fait son apparition en 2016 et permet, grâce à une prescription du médecin de pratiquer de l’activité physique adaptée en toute sécurité selon vos besoins.
 
-Elle permet également un remboursement par les mutuelles selon votre situation.
+Elle permet également un remboursement par les mutuelles selon votre situation.  
 
 <a href="https://trainingapa.github.io/remboursement/">Plus d'infos</a> 
 <div style="margin-bottom: 5em"></div>
@@ -40,7 +40,8 @@ Elle permet également un remboursement par les mutuelles selon votre situation.
 
 <img align="left" height="50" style="margin: 0 2% 0 0" src="/assets/images/10.png" />
 
-Vous pouvez prendre contact sans prescription médicale, tout accompagnement ne nécessite pas une prescription de sport sur ordonnance, dans certaines situations <i>un certificat d’aptitude à la pratique d’une activité physique/sportive</i> peut suffire.   
+Vous pouvez prendre contact sans prescription médicale, tout accompagnement ne nécessite pas une prescription de sport sur ordonnance, dans certaines situations <i>un certificat d’aptitude à la pratique d’une activité physique/sportive</i> peut suffire.  
+   
 <a href="/assets/pdf/Prescription.pdf" target="_blank" style="margin-left: 6.5%;" ><u>Exemple de prescription médicale</u></a>
 
 <div style="margin-bottom: 5em"></div>
@@ -48,7 +49,7 @@ Vous pouvez prendre contact sans prescription médicale, tout accompagnement ne 
 <h1 style="margin-top: 4em">Alban BRIERE - Fondateur de Training APA</h1>
 <!-- <img style="float: right;" src="./assets/img/avatar-icon.png">
  -->
-<img align="left" height="350px" src="/assets/images/pp.png"
+<img align="left" height="400px" src="/assets/images/pp.png"
 style="margin-right: 10%; border-radius: 1em; border: 2px solid #005f73;" />
 
 <b>Ingénieur en activité physique adaptée</b>
