@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Le sport en entreprise
+title: LE SPORT EN ENTREPRISE
 ---
 
 **En 2019, 88 % des maladies professionnelles déclarées concernaient des troubles musculosquelettiques (TMS)**. Délétères à la fois pour les salariés et l’entreprise, les TMS se manifestent le plus souvent au travail par des tendinopathies, des syndromes du canal carpien ou encore des lombalgies. 
@@ -28,6 +28,6 @@ Intervention adaptée aux postes et aux contraintes spécifiques de chaque profe
 
 Possibilité de réaliser des séances à domicile sur période télétravail.   
 
-Cette offre est dispensée uniquement sur devis uniquement.
+Cette offre est dispensée uniquement sur devis.
 
 
