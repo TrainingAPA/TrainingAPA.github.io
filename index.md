@@ -6,9 +6,9 @@ cover-img: "./assets/img/path.jpg"
 ---
 <body class="home-layout">
 
-<h1>Accompagnement dans vos objectifs bien être et santé</h1>
+<h1 style="margin-bottom: 2.5em;">Accompagnement dans vos objectifs bien être et santé</h1>
 
-<img align="right" height="250" style="margin: -2% 0 0 1%" src="/assets/images/9.png" />
+<img align="right" height="250" style="margin: -7% 0 0 1%" src="/assets/images/9.png" />
 
 Il est parfois difficile de trouver le temps de prendre soin de notre santé physique. C’est là que notre expertise entre en jeu.
 
