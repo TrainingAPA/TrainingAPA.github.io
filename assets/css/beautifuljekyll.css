@@ -703,17 +703,20 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 
 /* White title for index page */
-.home-layout .intro-header .page-heading h1 {
-  color: white;
-}
+.home-layout {
+  line-height: 2em;
 
-.home-layout hr.small {
-  max-width: 6.25rem;
-  margin: 1rem auto;
-  border-width: 0.25rem;
-  border-color: white;
-  border-radius: 0.1875rem;
-  margin-top: -4em;
+  .intro-header .page-heading h1 {
+    color: white;
+  }
+  hr.small {
+    max-width: 6.25rem;
+    margin: 1rem auto;
+    border-width: 0.25rem;
+    border-color: white;
+    border-radius: 0.1875rem;
+    margin-top: -4em;
+  }
 }
 
 @media (max-width: 767px) {
