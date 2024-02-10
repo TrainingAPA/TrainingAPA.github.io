@@ -59,6 +59,6 @@ Vous pouvez prendre contact sans prescription médicale, tout accompagnement ne 
 Formations Licence et Master en Ingénierie de la rééducation, du handicap et de la performance motrice.  
 Formation en éducation thérapeutique du patient. 
 
-<h3>Experiences</h3>
-Interventions dans plusieurs établissements, centre de rééducation, hôpitaux, agence régionale de santé (ARS), maison sport santé, ehpad et en libéral. 
+<h3>Expériences</h3>
+Interventions dans plusieurs établissements, centre de rééducation, hôpitaux, agence régionale de santé (ARS), maison sport santé, Ehpad et en libéral. 
 </body>
