@@ -10,24 +10,25 @@
         <br />
         <!-- CONTACT FORM -->
         <form
-          action="https://formsubmit.io/send/contact@training-apa.fr"
+          id="contactform"
+          action="https://formspree.io/f/meqygoqp"
           method="POST"
           enctype="text/plain"
         >
           <label for="name">Nom:</label><br />
           <input
-            type="text"
-            style="width: 100%"
             id="name"
             name="name"
+            type="text"
+            style="width: 100%"
             required
           /><br />
           <label for="email">Adresse mail:</label><br />
           <input
-            type="email"
-            style="width: 100%"
             id="email"
             name="email"
+            type="email"
+            style="width: 100%"
             required
           /><br />
           <label for="message">Message:</label><br />
@@ -38,7 +39,6 @@
             required
           ></textarea>
           <br />
-          <input name="_formsubmit_id" type="text" style="display: none" />
           <input
             type="submit"
             style="width: 100%; color: #fff"
