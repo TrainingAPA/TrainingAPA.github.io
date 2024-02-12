@@ -11,18 +11,22 @@
         <!-- CONTACT FORM -->
         <form
           id="contactform"
-          action="https://formspree.io/f/meqygoqp"
+          action="https://api.web3forms.com/submit"
           method="POST"
-          enctype="text/plain"
         >
-          <!-- <label for="name">Nom:</label><br />
+          <input
+            type="hidden"
+            name="access_key"
+            value="9d96c22c-d554-486d-ae56-1e049113ac4a"
+          />
+          <label for="name">Nom:</label><br />
           <input
             id="name"
             name="name"
             type="text"
             style="width: 100%"
             required
-          /><br /> -->
+          /><br />
           <label for="email">Adresse mail:</label><br />
           <input
             id="email"
@@ -39,6 +43,11 @@
             required
           ></textarea>
           <br />
+          <input
+            type="hidden"
+            name="redirect"
+            value="https://web3forms.com/success"
+          />
           <button type="submit">Send</button>
         </form>
       </div>
