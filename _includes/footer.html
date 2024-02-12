@@ -10,9 +10,8 @@
         <br />
         <!-- CONTACT FORM -->
         <form
-          action="https://formsubmit.co/contact@training-apa.fr"
+          action="https://formsubmit.io/send/contact@training-apa.fr"
           method="POST"
-          method="post"
           enctype="text/plain"
         >
           <label for="name">Nom:</label><br />
@@ -33,12 +32,13 @@
           /><br />
           <label for="message">Message:</label><br />
           <textarea
-            id="message"
-            name="message"
+            id="comment"
+            name="comment"
             style="height: 10em; width: 100%"
             required
           ></textarea>
           <br />
+          <input name="_formsubmit_id" type="text" style="display: none" />
           <input
             type="submit"
             style="width: 100%; color: #fff"
