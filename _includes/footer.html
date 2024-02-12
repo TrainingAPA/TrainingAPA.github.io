@@ -10,12 +10,19 @@
         <br />
         <!-- CONTACT FORM -->
         <form
-          action="mailto:contact@training-apa.fr"
+          action="https://formsubmit.co/contact@training-apa.fr"
+          method="POST"
           method="post"
           enctype="text/plain"
         >
           <label for="name">Nom:</label><br />
-          <input type="text" style="width: 100%" id="name" name="name" required/><br />
+          <input
+            type="text"
+            style="width: 100%"
+            id="name"
+            name="name"
+            required
+          /><br />
           <label for="email">Adresse mail:</label><br />
           <input
             type="email"
@@ -32,11 +39,9 @@
             required
           ></textarea
           ><br />
-          <input
-            type="submit"
-            style="width: 100%; color: #fff"
-            value="Envoyer"
-          />
+          <button type="submit" style="width: 100%; color: #fff">
+            Envoyer
+          </button>
         </form>
       </div>
       <div class="column">
