@@ -10,7 +10,7 @@ Perte de poids en pleine santé ? Renforcement musculaire ? Remise en forme ? Re
 Nous proposons des programmes à faire soit en autonomie, soit totalement supervisés. Dans tous les cas, **vous êtes suivis par un coach diplômé en activité physique adapté.**  
 
 <div style="text-align: center">
-  <img src="./assets/images/12.png" style="width: 50%; margin-top: 2em" /> 
+  <img src="/assets/images/12.png" style="width: 50%; margin-top: 2em" /> 
   <br/>
   <a href="#contact-scrollpoint">
     <button style="
@@ -19,8 +19,10 @@ Nous proposons des programmes à faire soit en autonomie, soit totalement superv
       padding: 10px 20px;
       border: none;
       border-radius: 1em;
-      font-weight: 800;
+      font-weight: 700;
       line-height: 1.1;
+      letter-spacing: 0.5px;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     " >Je réserve mon bilan</button>
   </a>
 </div>

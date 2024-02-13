@@ -25,8 +25,9 @@ form input[type="submit"] {
   border: none;
   border-radius: 1em;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.1;
+  letter-spacing: 0.5px;
 }
 
 /* Clear floats after the columns */
