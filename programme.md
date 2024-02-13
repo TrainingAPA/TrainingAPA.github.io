@@ -10,11 +10,11 @@ Perte de poids en pleine santé ? Renforcement musculaire ? Remise en forme ? Re
 Nous proposons des programmes à faire soit en autonomie, soit totalement supervisés. Dans tous les cas, **vous êtes suivis par un coach diplômé en activité physique adapté.**  
 
 <div style="text-align: center">
-  <img src="/assets/images/12.png" style="width: 50%; margin-top: 2em" /> 
+  <img src="/assets/images/12.png" style="height: 50%; margin-top: 2em" /> 
   <br/>
   <a href="#contact-scrollpoint">
     <button style="
-      margin: 1em 0 4em 0;
+      margin: 2em 0 4em 0;
       background-color: #4dbab4;
       color: white;
       padding: 10px 20px;
