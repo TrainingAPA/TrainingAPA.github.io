@@ -47,7 +47,7 @@ Elle a choisi à la suite de ce premier entretien une formule avec une séance s
 
  <h3 style="text-align: left; color: #005F73; margin-top: 4em">Témoignage</h3>
 
-<img align="left" height="300" style="margin: -5% 5% 0 0" src="/assets/images/monique.png" /> 
+<img align="left" height="250px" style="margin: -5% 5% 5% 0" src="/assets/images/monique.png" /> 
 
 > Super coach à l’écoute et bienveillant. J’avais peur de perdre la motivation vu que l’on doit réaliser des séances en autonomie, mais au final pas du tout ! Alban propose un super accompagnement, hyper disponible, même le dimanche ! Après trois mois, on a vu avec les tests une amélioration de ma condition physique, une perte de poids et j’ai diminué mes douleurs dans le dos.  
 > Monique. 
