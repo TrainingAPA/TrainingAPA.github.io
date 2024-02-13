@@ -1,31 +1,32 @@
 ---
 layout: page
-title: NOS PROGRAMMES
-subtitle: TODO subtitle
+title: NOS PROGRAMMES ADAPTÉS
 ---
 
+Tous nos programmes sont <b><u>100% adaptés et personnalisés à vos besoins et vos objectifs</u></b>. Après un bilan, nous vous proposons un accompagnement mensuel au travers d’un programme adapté quel que soit votre objectif.  
 
-## Séances individuelles ou à domicile
-La forme la plus adaptée et personnalisée possible.  
-**Training APA** va directement chez vous ou sur votre lieu de travail pour vous proposer des séances adaptées et personnalisées, en fonction de votre emploi du temps et de vos limitations.  
-Chaque activité ou exercices proposées sont parfaitement personnalisées à vos conditions.
-Possibilité de faire des séances de 30 minutes à 1 heure, également faisable sur les heures de midi. 
+Perte de poids en pleine santé ? Renforcement musculaire ? Remise en forme ? Reprise d’un sport ? Prise en charge d’une pathologie au travers d’une activité physique adaptée ? et bien d’autres sont des objectifs que nous accompagnons au quotidien.  
 
----
-## Le fonctionnement (TODO: Schéma)
+Nous proposons des programmes à faire soit en autonomie, soit totalement supervisés. Dans tous les cas, **vous êtes suivis par un coach diplômé en activité physique adapté.**  
 
-<table style="border: 2px solid #777">
-  <tr>
-    <th style="width: 50%" >Offre 1</th>
-    <th style="width: 50%">Offre 2</th>
-  </tr>
-  <tr>
-    <td>Cette offre vous correspond si vous avez des horaires de travail complexe et que vous ne trouvez rien d’adapté à votre emploi du temps.</td>
-    <td>Cette offre vous correspond si vous recherchez un coaching le plus adaptée et optimal possible à votre condition et pour l’atteinte de vos objectifs, que ce soit la perte de poids, en finir avec vos douleurs, vous remettre en forme, ou pratiquer une activité physique régulière !</td>
-  </tr>
-</table>
+<div style="text-align: center">
+  <img src="./assets/images/12.png" style="width: 50%; margin-top: 2em" /> 
+  <br/>
+  <a href="#contact-scrollpoint">
+    <button style="
+      background-color: #4dbab4;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 1em;
+      font-weight: 800;
+      line-height: 1.1;
+    " >Je réserve mon bilan</button>
+  </a>
+</div>
 
----
-## Nos tarifs : 
-25 à 55 euros à la séance.  
-Possibilité de payer 10 séances de 200 à 500 euros. 
+## NOS FORMULES
+
+TODO
+
+<div id="contact-scrollpoint" />

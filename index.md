@@ -12,14 +12,14 @@ cover-img: "./assets/img/path.jpg"
 
 Il est parfois difficile de trouver le temps de prendre soin de notre santé physique. C’est là que notre expertise entre en jeu.
 
-En tant qu’expert de <a href="#apa-section">l’activité physique adaptée (APA)</a>, <b>TRAINING APA</b> conçoit des programmes sur mesure qui s'adaptent à votre niveau de condition physique, à vos préférences et à vos besoins spécifiques.  
+En tant qu’expert de <a href="#apa-scrollpoint">l’activité physique adaptée (APA)</a>, <b>TRAINING APA</b> conçoit des programmes sur mesure qui s'adaptent à votre niveau de condition physique, à vos préférences et à vos besoins spécifiques.  
 <div style="margin-bottom: 7em"></div>
 
 <img align="left" height="300" style="margin: -5% 5% 0 0" src="/assets/images/4.png" />
 
 TRAINING APA s’engage à vous <b>aider pour atteindre vos objectifs de bien-être</b> de la manière la plus adaptée à <b>vos besoins</b> individuels.
 
-Que vous soyez <b>un débutant</b> n’ayant jamais touché aux sports et à l’activité physique, que vous ayez des <b>conditions médicales particulières</b>, ou que vous recherchiez simplement une <b>approche plus personnalisée</b> pour atteindre vos objectifs, <span id="apa-section">TRAINING APA</span> est là pour vous guider à chaque étape. 
+Que vous soyez <b>un débutant</b> n’ayant jamais touché aux sports et à l’activité physique, que vous ayez des <b>conditions médicales particulières</b>, ou que vous recherchiez simplement une <b>approche plus personnalisée</b> pour atteindre vos objectifs, <span id="apa-scrollpoint">TRAINING APA</span> est là pour vous guider à chaque étape. 
 <div style="margin-bottom: 5em"></div>
 
 <h1 style="margin-top: 4em">L'ACTIVITÉ PHYSIQUE ADAPTÉE (APA)</h1>
