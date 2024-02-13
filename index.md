@@ -12,7 +12,7 @@ cover-img: "./assets/img/path.jpg"
 
 Il est parfois difficile de trouver le temps de prendre soin de notre santé physique. C’est là que notre expertise entre en jeu.
 
-En tant qu’expert de <a href="#apa-section">l’activité physique adaptée (APA)</a>, <b>TRAINING APA</b> conçois des programmes sur mesure qui s'adaptent à votre niveau de condition physique, à vos préférences et à vos besoins spécifiques.  
+En tant qu’expert de <a href="#apa-section">l’activité physique adaptée (APA)</a>, <b>TRAINING APA</b> conçoit des programmes sur mesure qui s'adaptent à votre niveau de condition physique, à vos préférences et à vos besoins spécifiques.  
 <div style="margin-bottom: 7em"></div>
 
 <img align="left" height="300" style="margin: -5% 5% 0 0" src="/assets/images/4.png" />
@@ -41,7 +41,7 @@ Elle permet également un remboursement par les mutuelles selon votre situation.
 <img align="left" height="50" style="margin: 0 2% 0 0" src="/assets/images/10.png" />
 
 Vous pouvez prendre contact sans prescription médicale, tout accompagnement ne nécessite pas une prescription de sport sur ordonnance, dans certaines situations <i>un certificat d’aptitude à la pratique d’une activité physique/sportive</i> peut suffire.  
-
+<br/>
 <a href="/assets/pdf/Prescription.pdf" target="_blank" style="margin-left: 6.5%;" ><u>Exemple de prescription médicale</u></a>
 
 <div style="margin-bottom: 5em"></div>
