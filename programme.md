@@ -34,7 +34,7 @@ Nous proposons des programmes à faire soit en autonomie, soit totalement superv
 TODO
 
 
- <h3 style="text-align: left; color: #005F73; margin: 4em 0"><p style="font-weight: normal">L'exemple de <b>Monique</b></p></h3>
+ <h3 style="text-align: left; color: #005F73; margin-top: 4em"><p style="font-weight: normal">L'exemple de <b>Monique</b></p></h3>
 
 Monique nous a contactés sous les conseils de son médecin pour reprendre une activité physique pour perdre du poids.  
   
@@ -45,7 +45,7 @@ Après un bilan à son domicile, nous avons identifié ensemble plusieurs object
 
 Elle a choisi à la suite de ce premier entretien une formule avec une séance supervisée par mois pour 3 mois à 75 euros/mois.  
 
- <h3 style="text-align: left; color: #005F73; margin-top: 4em">Témoignage</h3>
+ <h3 style="text-align: left; color: #005F73; margin: 4em 0">Témoignage</h3>
 
 <img align="left" height="250px" style="margin: -5% 5% 5% 0" src="/assets/images/monique.png" /> 
 
