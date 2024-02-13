@@ -21,7 +21,9 @@ Nous proposons des programmes à faire soit en autonomie, soit totalement superv
       border-radius: 1em;
       font-weight: 700;
       line-height: 1.1;
-      letter-spacing: 0.5px;"
+      letter-spacing: 0.5px;
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      "
       >Je réserve mon bilan</button>
   </a>
 </div>
