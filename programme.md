@@ -34,7 +34,7 @@ Nous proposons des programmes à faire soit en autonomie, soit totalement superv
 TODO
 
 
- <h3 style="text-align: left; color: #005F73; margin-top: 4em">L'exemple de <b>Monique</b></h3>
+ <h3 style="text-align: left; color: #005F73; margin-top: 4em"><p style="font-weight: normal">L'exemple de </p><b>Monique</b></h3>
 
 Monique nous a contactés sous les conseils de son médecin pour reprendre une activité physique pour perdre du poids.  
   
