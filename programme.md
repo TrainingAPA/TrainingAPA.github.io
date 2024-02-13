@@ -14,6 +14,7 @@ Nous proposons des programmes à faire soit en autonomie, soit totalement superv
   <br/>
   <a href="#contact-scrollpoint">
     <button style="
+      margin: 1em 0 4em 0;
       background-color: #4dbab4;
       color: white;
       padding: 10px 20px;
