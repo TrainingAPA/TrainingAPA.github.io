@@ -29,8 +29,25 @@ Nous proposons des programmes à faire soit en autonomie, soit totalement superv
   </a>
 </div>
 
-## NOS FORMULES
+ <h2 style="text-align: left; color: #005F73; margin-top: 4em">NOS FORMULES</h2>
 
 TODO
+
+
+ <h3 style="text-align: left; color: #005F73; margin-top: 4em">L'exemple de <b>Monique</b></h3>
+
+Monique nous a contactés sous les conseils de son médecin pour reprendre une activité physique pour perdre du poids.  
+  
+Après un bilan à son domicile, nous avons identifié ensemble plusieurs objectifs prioritaires.  
+
+1. Perdre du poids (son principal objectif) 
+2. Diminuer ses douleurs et tensions dans le dos qu’elle a développé à son travail  
+
+Elle a choisi à la suite de ce premier entretien une formule avec une séance supervisée par mois pour 3 mois à 75 euros/mois.  
+
+ <h3 style="text-align: left; color: #005F73; margin-top: 4em">Témoignage</h3>
+
+> Super coach à l’écoute et bienveillant. J’avais peur de perdre la motivation vu que l’on doit réaliser des séances en autonomie, mais au final pas du tout ! Alban propose un super accompagnement, hyper disponible, même le dimanche ! Après trois mois, on a vu avec les tests une amélioration de ma condition physique, une perte de poids et j’ai diminué mes douleurs dans le dos.  
+> Monique. 
 
 <div id="contact-scrollpoint" />
