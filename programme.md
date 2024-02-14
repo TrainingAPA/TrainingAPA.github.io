@@ -31,7 +31,7 @@ Nous proposons des programmes à faire soit en autonomie, soit totalement superv
 
  <h2 style="text-align: left; color: #005F73; margin-top: 4em">NOS FORMULES</h2>
 
-TODO
+{% include program.html %}
 
 
  <h3 style="text-align: left; color: #005F73; margin-top: 4em"><p style="font-weight: normal">L'exemple de <b>Monique</b></p></h3>

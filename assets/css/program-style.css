@@ -1,0 +1,16 @@
+#buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.program-button {
+  background-color: grey;
+}
+
+.program-button.selected {
+  background-color: blue;
+}
+
+.data {
+  margin-top: 20px;
+}

@@ -155,6 +155,7 @@ footer-hover-col: "#0085A1"
 site-css:
   - "/assets/css/footer-styles.css"
   - "/assets/css/planning-styles.css"
+  - "/assets/css/program-styles.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:

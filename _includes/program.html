@@ -1,0 +1,35 @@
+<script>
+  function displayData(id) {
+    // Remove selected class from all buttons
+    document.querySelectorAll(".program-button").forEach(function (button) {
+      button.classList.remove("selected");
+    });
+
+    // Hide all data
+    document.querySelectorAll(".data").forEach(function (data) {
+      data.style.display = "none";
+    });
+
+    // Add selected class to clicked button and show corresponding data
+    document.querySelector("#" + id).style.display = "block";
+    document
+      .querySelector("button[onclick=\"displayData('" + id + "')\"]")
+      .classList.add("selected");
+  }
+</script>
+
+<div id="buttons">
+  <button class="program-button" onclick="displayData('data1')">
+    Button 1
+  </button>
+  <button class="program-button" onclick="displayData('data2')">
+    Button 2
+  </button>
+  <button class="program-button" onclick="displayData('data3')">
+    Button 3
+  </button>
+</div>
+
+<div id="data1" class="data">Data for Button 1</div>
+<div id="data2" class="data" style="display: none">Data for Button 2</div>
+<div id="data3" class="data" style="display: none">Data for Button 3</div>
