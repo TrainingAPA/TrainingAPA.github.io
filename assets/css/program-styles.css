@@ -19,9 +19,16 @@
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.selected {
+.program-button .selected {
   background-color: #4dbab4;
   color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 1em;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.5px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 ul li::marker {
