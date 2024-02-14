@@ -1,7 +1,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: center;
 
   .buttons {
@@ -33,6 +32,7 @@
   }
 
   .contact-button {
+    margin-top: 2em;
     background-color: #4dbab4;
     color: white;
     padding: 10px 20px;
