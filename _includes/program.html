@@ -1,34 +1,40 @@
 <script>
-  function displayData(id) {
-    // Remove selected class from all buttons
-    document.querySelectorAll(".program-button").forEach(function (button) {
-      button.classList.remove("selected");
-    });
+  // Get all buttons
+  const buttons = document.querySelectorAll(".program-button");
 
-    // Hide all data
-    document.querySelectorAll(".data").forEach(function (data) {
-      data.style.display = "none";
-    });
+  // Add click event listener to each button
+  buttons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      // Remove selected class from all buttons
+      buttons.forEach(function (btn) {
+        btn.classList.remove("selected");
+      });
 
-    // Add selected class to clicked button and show corresponding data
-    document.querySelector("#" + id).style.display = "block";
-    document
-      .querySelector("button[onclick=\"displayData('" + id + "')\"]")
-      .classList.add("selected");
-  }
+      // Hide all data items
+      document.querySelectorAll(".data").forEach(function (data) {
+        data.style.display = "none";
+      });
+
+      // Add selected class to clicked button
+      this.classList.add("selected");
+
+      // Show corresponding data item
+      const target = this.getAttribute("data-target");
+      document.getElementById(target).style.display = "list-item";
+    });
+  });
+
+  // Trigger click event on the first button to make it selected by default
+  buttons[0].click();
 </script>
 
 <div class="container">
   <div class="buttons">
-    <button class="program-button" onclick="displayData('data1')">
+    <button class="program-button selected" data-target="data1">
       40 euros/mois
     </button>
-    <button class="program-button" onclick="displayData('data2')">
-      75 euros/mois
-    </button>
-    <button class="program-button" onclick="displayData('data3')">
-      110 euros/mois
-    </button>
+    <button class="program-button" data-target="data2">75 euros/mois</button>
+    <button class="program-button" data-target="data3">110 euros/mois</button>
   </div>
 
   <ul>
