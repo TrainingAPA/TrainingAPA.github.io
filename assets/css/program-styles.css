@@ -11,7 +11,6 @@
 }
 
 .program-button {
-  margin: 2em 0 4em 0;
   color: #005f73;
   padding: 10px 20px;
   border: none;
@@ -23,7 +22,6 @@
 }
 
 .program-button.selected {
-  margin: 2em 0 4em 0;
   background-color: #4dbab4;
   color: white;
   padding: 10px 20px;
