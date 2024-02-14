@@ -1,31 +1,24 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
   // Get all buttons
   const buttons = document.querySelectorAll(".program-button");
 
-  // Add click event listener to each button
-  buttons.forEach(function (button) {
-    button.addEventListener("click", function () {
+  $(document).ready(function () {
+    $(".program-button").click(function () {
       // Remove selected class from all buttons
-      buttons.forEach(function (btn) {
-        btn.classList.remove("selected");
-      });
+      $(".program-button").removeClass("selected");
 
       // Hide all data items
-      document.querySelectorAll(".data").forEach(function (data) {
-        data.style.display = "none";
-      });
+      $(".data-item").hide();
 
       // Add selected class to clicked button
-      this.classList.add("selected");
+      $(this).addClass("selected");
 
       // Show corresponding data item
-      const target = this.getAttribute("data-target");
-      document.getElementById(target).style.display = "list-item";
+      var target = $(this).data("target");
+      $("#" + target).show();
     });
   });
-
-  // Trigger click event on the first button to make it selected by default
-  buttons[0].click();
 </script>
 
 <div class="container">
@@ -33,11 +26,13 @@
     <button class="program-button selected" data-target="data1">
       40 euros/mois
     </button>
-    <button class="program-button" style="margin: 0 5em;" data-target="data2">75 euros/mois</button>
+    <button class="program-button" style="margin: 0 5em" data-target="data2">
+      75 euros/mois
+    </button>
     <button class="program-button" data-target="data3">110 euros/mois</button>
   </div>
 
-  <ul>
+  <ul id="data">
     <li>Bilan gratuit et sans engagement (Visio / téléphone /présentiel)</li>
     <li>
       Réception du programme avec consignes, conseils, images ou vidéos de
@@ -45,10 +40,10 @@
     </li>
     <li>Ajustement et modification du programme chaque semaine</li>
     <li>Disponible 7j/7</li>
-    <li id="data2" class="data" style="display: none">
+    <li id="data2" class="data-item" style="display: none">
       1 séance en présentiel chaque mois
     </li>
-    <li id="data3" class="data" style="display: none">
+    <li id="data3" class="data-item" style="display: none">
       2 séances en présentiel chaque mois
     </li>
   </ul>
