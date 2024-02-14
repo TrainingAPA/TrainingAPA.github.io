@@ -18,18 +18,32 @@
   }
 </script>
 
-<div id="buttons">
-  <button class="program-button" onclick="displayData('data1')">
-    Button 1
-  </button>
-  <button class="program-button" onclick="displayData('data2')">
-    Button 2
-  </button>
-  <button class="program-button" onclick="displayData('data3')">
-    Button 3
-  </button>
-</div>
+<div class="container">
+  <div id="buttons">
+    <button class="program-button" onclick="displayData('data1')">
+      40 euros/mois
+    </button>
+    <button class="program-button" onclick="displayData('data2')">
+      75 euros/mois
+    </button>
+    <button class="program-button" onclick="displayData('data3')">
+      110 euros/mois
+    </button>
+  </div>
 
-<div id="data1" class="data">Data for Button 1</div>
-<div id="data2" class="data" style="display: none">Data for Button 2</div>
-<div id="data3" class="data" style="display: none">Data for Button 3</div>
+  <ul>
+    <li>Bilan gratuit et sans engagement (Visio / téléphone /présentiel)</li>
+    <li>
+      Réception du programme avec consignes, conseils, images ou vidéos de
+      chaque exercices et explications
+    </li>
+    <li>Ajustement et modification du programme chaque semaine</li>
+    <li>Disponible 7j/7</li>
+    <li id="data2" class="data" style="display: none">
+      1 séance en présentiel chaque mois
+    </li>
+    <li id="data3" class="data" style="display: none">
+      2 séances en présentiel chaque mois
+    </li>
+  </ul>
+</div>
