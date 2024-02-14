@@ -12,28 +12,25 @@
 
     // Add selected class to clicked button and show corresponding data
     document.querySelector("#" + id).style.display = "block";
-    document.querySelector("#button" + id.slice(-1)).classList.add("selected");
+    document
+      .querySelector("button[onclick='displayData(\"" + id + "\")']")
+      .classList.add("selected");
   }
 </script>
 
 <div class="container">
   <div class="buttons">
-    <button
-      id="button1"
-      class="program-button selected"
-      onclick="displayData('data1')"
-    >
+    <button class="program-button selected" onclick="displayData('data1')">
       40 euros/mois
     </button>
     <button
-      id="button2"
       class="program-button"
       style="margin: 0 5em"
       onclick="displayData('data2')"
     >
       75 euros/mois
     </button>
-    <button id="button3" class="program-button" onclick="displayData('data3')">
+    <button class="program-button" onclick="displayData('data3')">
       110 euros/mois
     </button>
   </div>
