@@ -12,7 +12,7 @@
 
     // Add selected class to clicked button and show corresponding data
     document.querySelector("#" + id).style.display = "block";
-    document.querySelector("#button" + id).classList.add("selected");
+    document.querySelector("#button" + id.slice(-1)).classList.add("selected");
   }
 </script>
 
