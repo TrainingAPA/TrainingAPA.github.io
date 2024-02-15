@@ -50,6 +50,10 @@
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
+  ul {
+    line-height: 3;
+  }
+
   ul li::marker {
     content: "✓";
     color: #4dbab4;
@@ -59,6 +63,10 @@
 /* Buttons for mobile */
 @media (max-width: 600px) {
   .container {
+    .buttons {
+      margin: 0;
+    }
+
     button {
       margin: 2em 0;
     }
