@@ -29,6 +29,15 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+/* Background image mobile */
+@media (max-width: 600px) {
+  body {
+    background: url("/assets/images/logo_bg.png") no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
 body > main {
   flex: 1;
 }
