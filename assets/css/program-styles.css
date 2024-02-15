@@ -7,13 +7,6 @@
     margin: 2em;
   }
 
-  /* Buttons for mobile */
-  @media (max-width: 600px) {
-    .buttons {
-      border: 2px magenta;
-    }
-  }
-
   .program-button {
     width: 12em;
     color: #005f73;
@@ -56,5 +49,18 @@
   ul li::marker {
     content: "✓";
     color: #4dbab4;
+  }
+}
+
+/* Buttons for mobile */
+@media (max-width: 600px) {
+  .container {
+    button {
+      margin: 2em 0;
+    }
+
+    ul {
+      line-height: 2;
+    }
   }
 }
