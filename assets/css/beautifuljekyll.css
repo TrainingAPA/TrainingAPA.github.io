@@ -34,7 +34,10 @@ body {
 @media (max-width: 600px) {
   body {
     background: url("/assets/images/logo_bg.png") no-repeat center center fixed;
-    background-size: cover;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
   }
 }
 
