@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Découvrez Training APA
-subtitle: Centre de remise en forme et d’activité physique adaptée.
+subtitle: Lieu de remise en forme et d’activité physique adaptée.
 cover-img: "./assets/img/path.jpg"
 ---
 <body class="home-layout">
@@ -26,9 +26,9 @@ Que vous soyez <b>un débutant</b> n’ayant jamais touché aux sports et à l�
 <img align="right" height="250" style="margin: -3% 0 0 -3%" src="/assets/images/6.png" />
 <img align="right" height="250" style="margin: -3% 0 0 2%" src="/assets/images/8.png" />
 
-<i>L’activité physique adaptée (APA)</i> est reconnue comme <b style="color: #4DBAB4">une thérapie non médicamenteuse</b>. La pratique de l’APA est primordiale dans le traitement de nombreuses maladies chroniques mais aussi en prévention des ces maladies. Il est donc important d’en pratiquer régulièrement et le plus tôt possible.
+<i>L’activité physique adaptée (APA)</i> est reconnue comme <b style="color: #4DBAB4">une thérapie non médicamenteuse</b>. La pratique de l’APA est primordiale dans le traitement de nombreuses maladies chroniques, mais aussi en prévention des ces maladies. Il est donc important d’en pratiquer régulièrement et le plus tôt possible.
 
-Le sport sur ordonnance a fait son apparition en 2016 et permet, grâce à une prescription du médecin de pratiquer de l’activité physique adaptée en toute sécurité selon vos besoins.
+Le sport sur ordonnance a fait son apparition en 2016 et permet, grâce à une prescription du médecin, de pratiquer de l’activité physique adaptée en toute sécurité selon vos besoins.
 
 Elle permet également un remboursement par les mutuelles selon votre situation.  
 <br/>
@@ -40,7 +40,8 @@ Elle permet également un remboursement par les mutuelles selon votre situation.
 
 <img align="left" height="50" style="margin: 0 2% 0 0" src="/assets/images/10.png" />
 
-Vous pouvez prendre contact sans prescription médicale, tout accompagnement ne nécessite pas une prescription de sport sur ordonnance, dans certaines situations <i>un certificat d’aptitude à la pratique d’une activité physique/sportive</i> peut suffire.  
+Vous pouvez prendre contact sans prescription médicale, tout accompagnement ne nécessite pas une prescription de sport sur ordonnance.  
+Dans certaines situations <i>un certificat d’aptitude à la pratique d’une activité physique/sportive</i> peut suffire.  
 <br/>
 <a href="/assets/pdf/Prescription.pdf" target="_blank" style="margin-left: 6.5%;" ><u>Exemple de prescription médicale</u></a>
 
@@ -52,7 +53,7 @@ Vous pouvez prendre contact sans prescription médicale, tout accompagnement ne 
 <img align="left" height="400px" src="/assets/images/pp.png"
 style="margin-right: 10%; border-radius: 1em; border: 2px solid #005f73;" />
 
-<b>Ingénieur en activité physique adaptée</b>
+<b>Ingénieur/enseignant en activité physique adaptée</b>
 
 <h3>Formation</h3>
 Formations Licence et Master en Ingénierie de la rééducation, du handicap et de la performance motrice.  
