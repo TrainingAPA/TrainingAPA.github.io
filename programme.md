@@ -40,8 +40,8 @@ Monique nous a contacté sous les conseils de son médecin pour reprendre une ac
   
 Après un <b style="color: #4DBAB4">bilan à son domicile</b>, nous avons identifié ensemble plusieurs <b style="color: #4DBAB4">objectifs</b> prioritaires: 
 
-1. <p style="font-size: large" ><b>Perdre du poids (son principal objectif)</b></p> 
-2. <p style="font-size: large" ><b>Diminuer les douleurs et tensions dans le dos qu’elle a développé à son travail</b></p>
+1. <p style="font-size: larger" ><b>Perdre du poids (son principal objectif)</b></p> 
+2. <p style="font-size: larger" ><b>Diminuer les douleurs et tensions dans le dos qu’elle a développé à son travail</b></p>
 
 Elle a choisi à la suite de ce premier entretien une formule avec une séance supervisée par mois pour 3 mois à 75 euros/mois.  
 
