@@ -78,5 +78,9 @@
     ul {
       line-height: 2;
     }
+
+    li:not(:last-child) {
+      margin-bottom: 1em;
+    }
   }
 }
