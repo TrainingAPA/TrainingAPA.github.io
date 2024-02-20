@@ -314,3 +314,17 @@
     width: 100%;
   }
 }
+
+/* IMAGES BELOW GRID */
+.imagesDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+/* Hide images on mobile */
+@media (max-width: 600px) {
+  .imagesDiv {
+    display: none;
+  }
+}
