@@ -18,11 +18,11 @@
     switch (divId) {
       case "Salle de sport":
         document.getElementById("modalDescription").innerText =
-          "Accompagnement de 3 à 6 mois pour les personnes qui souhaitent commencer la salle de sport mais ne savent pas comment s'y prendre.\nProgramme personnalisé et adapté sur devis";
+          "Accompagnement de 3 à 6 mois pour les personnes qui souhaitent commencer la salle de sport mais ne savent pas comment s'y prendre.\n\nProgramme personnalisé et adapté sur devis";
         document.getElementById("modalTarifs").innerText =
           "Bilan et premier entretien gratuit.\n\nSéance : 35 à 55 euros/séance.\n\nProgramme personnalisé : 110 à 300 euros (3 à 6 mois).";
         document.getElementById("modalObjectifs").innerText =
-          "Programme sur-mesure et 100% adaptée à vos objectifs.\nAccompagnement, découverte de la salle de musculation, explication des concepts liés à la musculation.\nCommencer la salle de musculation en pleine santé.";
+          "Programme sur-mesure et 100% adaptée à vos objectifs.\n\nAccompagnement, découverte de la salle de musculation, explication des concepts liés à la musculation.\n\nCommencer la salle de musculation en pleine santé.";
         break;
 
       case "APA Perte de poids":
@@ -63,7 +63,7 @@
 
       case "Renforcement musculaire":
         document.getElementById("modalDescription").innerText =
-          "Groupe ouvert, séance adaptée et personnalisée avec comme objectif premier un renforcement musculaire.\nActivités possibles (renforcement musculaire global, membres inférieurs, supérieurs...).";
+          "Groupe ouvert, séance adaptée et personnalisée avec comme objectif premier un renforcement musculaire.\n\nActivités possibles (renforcement musculaire global, membres inférieurs, supérieurs...).";
         document.getElementById("modalTarifs").innerText =
           "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
         document.getElementById("modalObjectifs").innerText =
@@ -80,7 +80,7 @@
 
       case "Marche nordique - débutant":
         document.getElementById("modalDescription").innerText =
-          "Groupe ouvert, séance de marche nordique. Sortie en extérieur sur les rives de l'étang du ter et d'autres lieux proches de Lorient.\nAnnulation en cas d'intempérie, non facturée.\nGroupe ouvert à tous débutant en marche nordique.";
+          "Groupe ouvert, séance de marche nordique.\nSortie en extérieur sur les rives de l'étang du ter et d'autres lieux proches de Lorient.\n\nAnnulation en cas d'intempérie, non facturée.\n\nGroupe ouvert à tous débutant en marche nordique.";
         document.getElementById("modalTarifs").innerText =
           "Bilan et premier entretien gratuit.\n\nSéance : 5 euros/séance.";
         document.getElementById("modalObjectifs").innerText =
@@ -89,7 +89,7 @@
 
       case "Marche nordique":
         document.getElementById("modalDescription").innerText =
-          "Groupe ouvert, séance de marche nordique. Sortie en extérieur sur les rives de l'étang du ter et d'autres lieux proches de Lorient.\nAnnulation en cas d'intempérie, non facturée.\nGroupe intermédiaire à confirmé en marche nordique.";
+          "Groupe ouvert, séance de marche nordique.\nSortie en extérieur sur les rives de l'étang du ter et d'autres lieux proches de Lorient.\n\nAnnulation en cas d'intempérie, non facturée.\n\nGroupe intermédiaire à confirmé en marche nordique.";
         document.getElementById("modalTarifs").innerText =
           "Bilan et premier entretien gratuit.\n\nSéance : 5 euros/séance.";
         document.getElementById("modalObjectifs").innerText = "/";
@@ -139,12 +139,10 @@
       </td>
       <td>
         <div
-          onclick="openModal('APA Perte de poids')"
+          onclick="openModal('Salle de sport')"
           style="background-color: #37b6ff"
         >
-          APA
-          <br />
-          <u>Perte de poids</u>
+          Salle de sport
         </div>
       </td>
       <td>
@@ -287,7 +285,7 @@
     </tr>
     <tr>
       <td>9-10h</td>
-      <td style="height: 130px">
+      <td style="height: 130px; border-top: 3px solid #4dbab4">
         <div
           onclick="openModal('Marche nordique - débutant')"
           class="clickable"
@@ -466,12 +464,10 @@
         style="border-top: 3px solid #4dbab4; border-bottom: 2px dashed #4dbab4"
       >
         <div
-          onclick="openModal('APA Perte de poids')"
+          onclick="openModal('Salle de sport')"
           style="background-color: #37b6ff"
         >
-          APA
-          <br />
-          <u>Perte de poids</u>
+          Salle de sport
         </div>
       </td>
     </tr>
