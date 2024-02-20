@@ -3,8 +3,8 @@ layout: page
 title: NOS PROGRAMMES ADAPTÉS
 ---
 
-Tous nos programmes sont <b><u>100% adaptés et personnalisés à vos besoins et vos objectifs</u></b>. Après un bilan, nous vous proposons un accompagnement mensuel au travers d’un programme adapté quel que soit votre objectif.  
 <img align="right" style="width: 350px; margin: 0 0 1em 1em;"  src="/assets/images/14.png" />
+Tous nos programmes sont <b><u>100% adaptés et personnalisés à vos besoins et vos objectifs</u></b>. Après un bilan, nous vous proposons un accompagnement mensuel au travers d’un programme adapté quel que soit votre objectif.  
 
 Perte de poids en pleine santé ? Renforcement musculaire ? Remise en forme ? Reprise d’un sport ? Prise en charge d’une pathologie au travers d’une activité physique adaptée ? et bien d’autres sont des objectifs que nous accompagnons au quotidien.  
 
