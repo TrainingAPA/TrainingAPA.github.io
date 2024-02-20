@@ -22,7 +22,7 @@
         document.getElementById("modalTarifs").innerText =
           "Bilan et premier entretien gratuit.\n\nSéance : 35 à 55 euros/séance.\n\nProgramme personnalisé : 110 à 300 euros (3 à 6 mois).";
         document.getElementById("modalObjectifs").innerText =
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+          "Programme sur-mesure et 100% adaptée à vos objectifs.\nAccompagnement, découverte de la salle de musculation, explication des concepts liés à la musculation.\nCommencer la salle de musculation en pleine santé.";
         break;
 
       case "APA Perte de poids":
@@ -31,16 +31,16 @@
         document.getElementById("modalTarifs").innerText =
           "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
         document.getElementById("modalObjectifs").innerText =
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+          "Activités cardio-respiratoires et/ou de renforcement musculaire avec comme objectif principal la perte de poids.";
         break;
 
       case "APA du Dos":
         document.getElementById("modalDescription").innerText =
-          "Groupe ouvert, séance adaptée pour des personnes ayant des douleurs au dos.";
+          "Séance APA pour les personnes ayant des douleurs au dos.";
         document.getElementById("modalTarifs").innerText =
           "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
         document.getElementById("modalObjectifs").innerText =
-          "Renforcement du dos, activités adaptées aux douleurs dorsales, diminuer les douleurs.";
+          "Renforcement musculaire spécifique, exercices adaptés aux douleurs, diminution des douleurs.";
         break;
 
       case "APA Cognitif":
@@ -49,25 +49,16 @@
         document.getElementById("modalTarifs").innerText =
           "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
         document.getElementById("modalObjectifs").innerText =
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+          "Travail des fonctions cognitives avec l'activité physique adaptée.";
         break;
 
-      case "APA en fauteuil":
+      case "APA de groupe":
         document.getElementById("modalDescription").innerText =
-          "Séances en groupe de 4 personnes.\nRenforcement musculaire en fauteuil, perte de poids, multi-activités adaptées... ";
+          "Prise en charge en activité physique adaptée, exercices et séances 100% adaptées à vos conditions et objectifs.";
         document.getElementById("modalTarifs").innerText =
           "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
         document.getElementById("modalObjectifs").innerText =
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
-        break;
-
-      case "Multi-activités":
-        document.getElementById("modalDescription").innerText =
-          "Groupe ouvert, séance variée et ludique d'activité physique adaptée, cycle d'activités variables.";
-        document.getElementById("modalTarifs").innerText =
-          "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
-        document.getElementById("modalObjectifs").innerText =
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+          "Dépend de vous !";
         break;
 
       case "Renforcement musculaire":
@@ -76,7 +67,7 @@
         document.getElementById("modalTarifs").innerText =
           "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
         document.getElementById("modalObjectifs").innerText =
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+          "Renforcement musculaire global, prise de muscle, se remuscler.";
         break;
 
       case "APA Pilates":
@@ -84,8 +75,7 @@
           "Groupe ouvert, séance de pilates adaptée.";
         document.getElementById("modalTarifs").innerText =
           "Bilan et premier entretien gratuit.\n\nSéance : 12 euros/séance.\n\nAbonnement mensuel engagement 3 mois : 39 euros.";
-        document.getElementById("modalObjectifs").innerText =
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        document.getElementById("modalObjectifs").innerText = "/";
         break;
 
       case "Marche nordique - débutant":
@@ -102,8 +92,7 @@
           "Groupe ouvert, séance de marche nordique. Sortie en extérieur sur les rives de l'étang du ter et d'autres lieux proches de Lorient.\nAnnulation en cas d'intempérie, non facturée.\nGroupe intermédiaire à confirmé en marche nordique.";
         document.getElementById("modalTarifs").innerText =
           "Bilan et premier entretien gratuit.\n\nSéance : 5 euros/séance.";
-        document.getElementById("modalObjectifs").innerText =
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.";
+        document.getElementById("modalObjectifs").innerText = "/";
         break;
 
       default:
@@ -181,12 +170,12 @@
       <td></td>
       <td>
         <div
-          onclick="openModal('APA en fauteuil')"
-          style="background-color: #fa01ac"
+          onclick="openModal('APA de groupe')"
+          style="background-color: seagreen"
         >
-          APA en
+          APA de
           <br />
-          fauteuil
+          groupe
         </div>
       </td>
       <td>
@@ -211,10 +200,10 @@
       <td>17h45-18h45</td>
       <td>
         <div
-          onclick="openModal('Multi-activités')"
+          onclick="openModal('APA de groupe')"
           style="background-color: seagreen"
         >
-          Multi-activités
+          APA de groupe
         </div>
       </td>
       <td></td>
@@ -282,10 +271,10 @@
       </td>
       <td>
         <div
-          onclick="openModal('Multi-activités')"
+          onclick="openModal('APA de groupe')"
           style="background-color: seagreen"
         >
-          Multi-activités
+          APA de groupe
         </div>
       </td>
     </tr>
@@ -362,10 +351,10 @@
       <td>17h45-18h45</td>
       <td>
         <div
-          onclick="openModal('Multi-activités')"
+          onclick="openModal('APA de groupe')"
           style="background-color: seagreen"
         >
-          Multi-activités
+          APA de groupe
         </div>
       </td>
     </tr>
@@ -432,12 +421,12 @@
       <td>16h30-17h30</td>
       <td>
         <div
-          onclick="openModal('APA en fauteuil')"
-          style="background-color: #fa01ac"
+          onclick="openModal('APA de groupe')"
+          style="background-color: seagreen"
         >
-          APA en
+          APA de
           <br />
-          fauteuil
+          groupe
         </div>
       </td>
     </tr>
@@ -569,10 +558,10 @@
       <td>19h-20h</td>
       <td>
         <div
-          onclick="openModal('Multi-activités')"
+          onclick="openModal('APA de groupe')"
           style="background-color: seagreen"
         >
-          Multi-activités
+          APA de groupe
         </div>
       </td>
     </tr>
@@ -632,14 +621,14 @@
         <!-- LEFT COLUMN -->
         <div class="column" style="flex: 2">
           <h3>Description</h3>
-          <p id="modalDescription" class="modal-description">Some text...</p>
+          <p id="modalDescription" class="modal-description"></p>
           <h3>Objectifs</h3>
-          <p id="modalObjectifs" class="modal-description">Some text...</p>
+          <p id="modalObjectifs" class="modal-description"></p>
         </div>
         <!-- RIGHT COLUMN -->
         <div class="column" style="flex: 1">
           <h3>Tarifs</h3>
-          <p id="modalTarifs" class="modal-tarifs">Some text...</p>
+          <p id="modalTarifs" class="modal-tarifs"></p>
           <div style="text-align: center">
             <button class="modal-register-button">
               <a href="https://www.google.com" style="color: white"
