@@ -55,14 +55,14 @@
   }
 
   ul li {
-    background-color: #EFEFEF;
+    background-color: #efefef;
     border-radius: 0 1em 1em 0;
   }
 
-  ul li::marker {
+  ul li:before {
     content: "✓";
     color: #4dbab4;
-    background-color: #EFEFEF;
+    background-color: #efefef;
     border-radius: 1em 0 0 1em;
   }
 
