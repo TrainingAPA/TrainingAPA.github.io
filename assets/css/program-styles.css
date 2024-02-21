@@ -56,14 +56,17 @@
 
   ul li {
     background-color: #efefef;
-    border-radius: 0 1em 1em 0;
+    border-radius: 1em;
   }
 
-  ul li:before {
+  ul li::marker {
     content: "✓";
     color: #4dbab4;
-    background-color: #efefef;
-    border-radius: 1em 0 0 1em;
+  }
+
+  li {
+    list-style-position: inside;
+    padding-left: 2em;
   }
 
   li:not(:last-child) {
