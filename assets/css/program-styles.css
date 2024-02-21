@@ -62,11 +62,7 @@
   ul li::marker {
     content: "✓";
     color: #4dbab4;
-  }
-
-  li {
-    list-style-position: inside;
-    padding-left: 2em;
+    margin-right: 1em;
   }
 
   li:not(:last-child) {
