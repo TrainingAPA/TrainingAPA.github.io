@@ -56,11 +56,18 @@
 
   ul li {
     background-color: #EFEFEF;
+    border-radius: 0 1em 1em 0;
   }
 
   ul li::marker {
     content: "✓";
     color: #4dbab4;
+    background-color: #EFEFEF;
+    border-radius: 1em 0 0 1em;
+  }
+
+  li:not(:last-child) {
+    margin-bottom: 1em;
   }
 }
 
