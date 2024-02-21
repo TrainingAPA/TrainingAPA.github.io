@@ -4,14 +4,14 @@
   text-align: center;
 
   .buttons {
-    margin: 2em;
+    margin: 2em 0;
   }
 
   .program-button {
     width: 12em;
     color: #005f73;
     padding: 10px 20px;
-    border: none;
+    border: 2px solid #005f73;
     border-radius: 1em;
     font-weight: 700;
     line-height: 1.1;
@@ -21,7 +21,7 @@
   }
 
   .program-button.middle {
-    margin: 0 5em;
+    margin: 0;
   }
 
   .program-button.selected {
@@ -29,7 +29,7 @@
     background-color: #4dbab4;
     color: white;
     padding: 10px 20px;
-    border: none;
+    border: 2px solid white;
     border-radius: 1em;
     font-weight: 700;
     line-height: 1.1;
@@ -52,6 +52,10 @@
 
   ul {
     line-height: 3;
+  }
+
+  ul li {
+    background-color: #EFEFEF;
   }
 
   ul li::marker {
