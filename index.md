@@ -2,7 +2,7 @@
 layout: home
 title: Découvrez Training APA
 subtitle: Lieu de remise en forme et d’activité physique adaptée.
-cover-img: "./assets/img/path.jpg"
+cover-img: "./assets/images/banniere.jpg"
 ---
 <body class="home-layout">
 
