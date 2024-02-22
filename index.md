@@ -1,6 +1,6 @@
 ---
 layout: home
-cover-img: "./assets/images/banniere.jpg"
+cover-img: "./assets/images/banniere.png"
 ---
 <body class="home-layout">
 
