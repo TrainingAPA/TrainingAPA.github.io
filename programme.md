@@ -36,9 +36,9 @@ Dans tous les cas, **vous êtes suivis par un coach diplômé en activité physi
 {% include program.html %}
 
 
- <h3 style="text-align: left; color: #005F73; margin-top: 4em"><p style="font-weight: normal">L'exemple de <b>Monique</b></p></h3>
+ <h3 style="text-align: left; color: #005F73; margin-top: 4em"><p style="font-weight: normal">L'exemple de <b>Sophie</b></p></h3>
 
-Monique nous a contacté sous les conseils de son médecin pour reprendre une activité physique afin de perdre du poids.  
+Sophie nous a contacté sous les conseils de son médecin pour reprendre une activité physique afin de perdre du poids.  
   
 Après un <b style="color: #4DBAB4">bilan à son domicile</b>, nous avons identifié ensemble plusieurs <b style="color: #4DBAB4">objectifs</b> prioritaires: 
 
@@ -52,6 +52,6 @@ Elle a choisi à la suite de ce premier entretien une formule avec une séance s
 <img align="left" height="250px" style="margin: -5% 5% 5% 0" src="/assets/images/monique.png" /> 
 
 > Super coach à l’écoute et bienveillant. J’avais peur de perdre la motivation vu que l’on doit réaliser des séances en autonomie, mais au final pas du tout ! Alban propose un super accompagnement, hyper disponible, même le dimanche ! Après trois mois, on a vu avec les tests une amélioration de ma condition physique, une perte de poids et j’ai diminué mes douleurs dans le dos.  
-> Monique. 
+> Sophie. 
 
 <div id="contact-scrollpoint" />
