@@ -1,8 +1,9 @@
 <script>
   // Open the modal
-  function openModal(divId) {
+  function openModal(divId, time) {
     document.getElementById("myModal").style.display = "block";
     document.getElementById("modalText").innerText = divId;
+    document.getElementById("modalTime").innerText = time;
     fillModalContent(divId);
   }
 
@@ -115,7 +116,7 @@
       <td>8h-9h</td>
       <td>
         <div
-          onclick="openModal('Salle de sport')"
+          onclick="openModal('Salle de sport', '8h-9h')"
           style="background-color: #005f73"
         >
           Salle de sport
@@ -123,7 +124,7 @@
       </td>
       <td>
         <div
-          onclick="openModal('Salle de sport')"
+          onclick="openModal('Salle de sport', '8h-9h')"
           style="background-color: #005f73"
         >
           Salle de sport
@@ -131,7 +132,7 @@
       </td>
       <td>
         <div
-          onclick="openModal('Salle de sport')"
+          onclick="openModal('Salle de sport', '8h-9h')"
           style="background-color: #005f73"
         >
           Salle de sport
@@ -139,7 +140,7 @@
       </td>
       <td>
         <div
-          onclick="openModal('Salle de sport')"
+          onclick="openModal('Salle de sport', '8h-9h')"
           style="background-color: #005f73"
         >
           Salle de sport
@@ -147,7 +148,7 @@
       </td>
       <td>
         <div
-          onclick="openModal('APA du Dos')"
+          onclick="openModal('APA du Dos', '8h-9h')"
           style="background-color: #7295ff"
         >
           APA
@@ -159,7 +160,10 @@
     <tr>
       <td>16h30-17h30</td>
       <td>
-        <div onclick="openModal('APA Cognitif')" style="background-color: red">
+        <div
+          onclick="openModal('APA Cognitif', '16h30-17h30')"
+          style="background-color: red"
+        >
           APA
           <br />
           <u>Cognitif</u>
@@ -168,7 +172,7 @@
       <td></td>
       <td>
         <div
-          onclick="openModal('APA de groupe')"
+          onclick="openModal('APA de groupe', '16h30-17h30')"
           style="background-color: seagreen"
         >
           APA de
@@ -178,7 +182,7 @@
       </td>
       <td>
         <div
-          onclick="openModal('APA Cognitif')"
+          onclick="openModal('APA de groupe', '16h30-17h30')"
           style="background-color: seagreen"
         >
           APA de
@@ -188,7 +192,7 @@
       </td>
       <td>
         <div
-          onclick="openModal('APA Perte de poids')"
+          onclick="openModal('APA Perte de poids', '16h30-17h30')"
           style="background-color: #37b6ff"
         >
           APA
@@ -201,7 +205,7 @@
       <td>17h45-18h45</td>
       <td>
         <div
-          onclick="openModal('APA de groupe')"
+          onclick="openModal('APA de groupe', '17h45-18h45')"
           style="background-color: seagreen"
         >
           APA de groupe
@@ -210,7 +214,7 @@
       <td></td>
       <td>
         <div
-          onclick="openModal('APA Perte de poids')"
+          onclick="openModal('APA Perte de poids', '17h45-18h45')"
           style="background-color: #37b6ff"
         >
           APA
@@ -220,7 +224,7 @@
       </td>
       <td>
         <div
-          onclick="openModal('Renforcement musculaire')"
+          onclick="openModal('Renforcement musculaire', '17h45-18h45')"
           style="background-color: coral"
         >
           Renforcement<br />musculaire
@@ -228,7 +232,7 @@
       </td>
       <td>
         <div
-          onclick="openModal('APA Pilates')"
+          onclick="openModal('APA Pilates', '17h45-18h45')"
           style="background-color: #ff9103"
         >
           APA
@@ -241,7 +245,7 @@
       <td>19h-20h</td>
       <td>
         <div
-          onclick="openModal('APA Du dos')"
+          onclick="openModal('APA Du dos', '19h-20h')"
           style="background-color: #7295ff"
         >
           APA
@@ -252,7 +256,7 @@
       <td></td>
       <td>
         <div
-          onclick="openModal('APA Du dos')"
+          onclick="openModal('APA Du dos', '19h-20h')"
           style="background-color: #7295ff"
         >
           APA
@@ -262,7 +266,7 @@
       </td>
       <td>
         <div
-          onclick="openModal('APA Perte de poids')"
+          onclick="openModal('APA Perte de poids', '19h-20h')"
           style="background-color: #37b6ff"
         >
           APA
@@ -272,7 +276,7 @@
       </td>
       <td>
         <div
-          onclick="openModal('APA de groupe')"
+          onclick="openModal('APA de groupe', '19h-20h')"
           style="background-color: seagreen"
         >
           APA de groupe
@@ -290,7 +294,7 @@
       <td>9-10h</td>
       <td style="height: 130px; border-top: 3px solid #4dbab4">
         <div
-          onclick="openModal('Marche nordique - débutant')"
+          onclick="openModal('Marche nordique - débutant', '9-10h')"
           class="clickable"
           style="background-color: blue; height: 60%"
         >
@@ -305,7 +309,7 @@
       <td>10h-11h</td>
       <td style="height: 130px; border-bottom: 3px solid #4dbab4">
         <div
-          onclick="openModal('Marche nordique')"
+          onclick="openModal('Marche nordique', '10h-11h')"
           class="clickable"
           style="background-color: grey; height: 50%"
         >
@@ -331,7 +335,7 @@
         style="border-top: 3px solid #4dbab4; border-bottom: 2px dashed #4dbab4"
       >
         <div
-          onclick="openModal('Salle de sport')"
+          onclick="openModal('Salle de sport', '8h-9h')"
           style="background-color: #005f73"
         >
           Salle de sport
@@ -341,7 +345,10 @@
     <tr>
       <td>16h30-17h30</td>
       <td>
-        <div onclick="openModal('APA Cognitif')" style="background-color: red">
+        <div
+          onclick="openModal('APA Cognitif', '16h30-17h30')"
+          style="background-color: red"
+        >
           APA
           <br />
           <u>Cognitif </u>
@@ -352,7 +359,7 @@
       <td>17h45-18h45</td>
       <td>
         <div
-          onclick="openModal('APA de groupe')"
+          onclick="openModal('APA de groupe', '17h45-18h45')"
           style="background-color: seagreen"
         >
           APA de groupe
@@ -363,7 +370,7 @@
       <td>19h-20h</td>
       <td>
         <div
-          onclick="openModal('APA Du dos')"
+          onclick="openModal('APA Du dos', '19h-20h')"
           style="background-color: #7295ff"
         >
           APA
@@ -382,7 +389,7 @@
         style="border-top: 3px solid #4dbab4; border-bottom: 2px dashed #4dbab4"
       >
         <div
-          onclick="openModal('Salle de sport')"
+          onclick="openModal('Salle de sport', '8h-9h')"
           style="background-color: #005f73"
         >
           Salle de sport
@@ -411,7 +418,7 @@
         style="border-top: 3px solid #4dbab4; border-bottom: 2px dashed #4dbab4"
       >
         <div
-          onclick="openModal('Salle de sport')"
+          onclick="openModal('Salle de sport', '8h-9h')"
           style="background-color: #005f73"
         >
           Salle de sport
@@ -422,7 +429,7 @@
       <td>16h30-17h30</td>
       <td>
         <div
-          onclick="openModal('APA de groupe')"
+          onclick="openModal('APA de groupe', '16h30-17h30')"
           style="background-color: seagreen"
         >
           APA de
@@ -435,7 +442,7 @@
       <td>17h45-18h45</td>
       <td>
         <div
-          onclick="openModal('APA Perte de poids')"
+          onclick="openModal('APA Perte de poids', '17h45-18h45')"
           style="background-color: #37b6ff"
         >
           APA
@@ -448,7 +455,7 @@
       <td>19h-20h</td>
       <td>
         <div
-          onclick="openModal('APA Du dos')"
+          onclick="openModal('APA Du dos', '19h-20h')"
           style="background-color: #7295ff"
         >
           APA
@@ -467,7 +474,7 @@
         style="border-top: 3px solid #4dbab4; border-bottom: 2px dashed #4dbab4"
       >
         <div
-          onclick="openModal('Salle de sport')"
+          onclick="openModal('Salle de sport', '8h-9h')"
           style="background-color: #005f73"
         >
           Salle de sport
@@ -478,7 +485,7 @@
       <td>16h30-17h30</td>
       <td>
         <div
-          onclick="openModal('APA de groupe')"
+          onclick="openModal('APA de groupe', '16h30-17h30')"
           style="background-color: seagreen"
         >
           APA de
@@ -491,7 +498,7 @@
       <td>17h45-18h45</td>
       <td>
         <div
-          onclick="openModal('Renforcement musculaire')"
+          onclick="openModal('Renforcement musculaire', '17h45-18h45')"
           style="background-color: coral"
         >
           Renforcement<br />musculaire
@@ -502,7 +509,7 @@
       <td>19h-20h</td>
       <td>
         <div
-          onclick="openModal('APA Perte de poids')"
+          onclick="openModal('APA Perte de poids', '19h-20h')"
           style="background-color: #37b6ff"
         >
           APA
@@ -521,7 +528,7 @@
         style="border-top: 3px solid #4dbab4; border-bottom: 2px dashed #4dbab4"
       >
         <div
-          onclick="openModal('APA du Dos')"
+          onclick="openModal('APA du Dos', '8h-9h')"
           style="background-color: #7295ff"
         >
           APA
@@ -534,7 +541,7 @@
       <td>16h30-17h30</td>
       <td>
         <div
-          onclick="openModal('APA Perte de poids')"
+          onclick="openModal('APA Perte de poids', '16h30-17h30')"
           style="background-color: #37b6ff"
         >
           APA
@@ -547,7 +554,7 @@
       <td>17h45-18h45</td>
       <td>
         <div
-          onclick="openModal('APA Pilates')"
+          onclick="openModal('APA Pilates', '17h45-18h45')"
           style="background-color: #ff9103"
         >
           APA
@@ -560,7 +567,7 @@
       <td>19h-20h</td>
       <td>
         <div
-          onclick="openModal('APA de groupe')"
+          onclick="openModal('APA de groupe', '19h-20h')"
           style="background-color: seagreen"
         >
           APA de groupe
@@ -579,7 +586,7 @@
       <td>9-10h</td>
       <td style="height: 130px; border-top: 3px solid #4dbab4">
         <div
-          onclick="openModal('Marche nordique - débutant')"
+          onclick="openModal('Marche nordique - débutant', '9-10h')"
           class="clickable"
           style="background-color: blue"
         >
@@ -594,7 +601,7 @@
       <td>10h-11h</td>
       <td style="height: 130px">
         <div
-          onclick="openModal('Marche nordique')"
+          onclick="openModal('Marche nordique', '10h-11h')"
           class="clickable"
           style="background-color: grey; height: 50%"
         >
@@ -625,6 +632,7 @@
   <div class="modal-content">
     <!-- HEADER -->
     <h2 id="modalText"></h2>
+    <h3 id="modalTime"></h3>
     <!-- CONTENT -->
     <div class="modal-body">
       <!-- NEW 2-COLUMN LAYOUT -->
